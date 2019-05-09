@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project you will write a new command that can be typed in a terminal or run from the Main Menu on the Raspberry Pi. Your command will display a message in coloured text. 
 
 ### What you will make
 
