@@ -48,6 +48,7 @@ Type this command to see the properties of `welcome.sh`
 ```bash
 ls -l welcome.sh
 ```
+
 You should see that the file has the permissions: `-rw-r--r--`.
 
 There are three possible permissions: read, write and execute and these can be set for the user (you), group and other (everyone.)
@@ -55,14 +56,17 @@ There are three possible permissions: read, write and execute and these can be s
 The user is able to read and write to this file but not execute it. 
 
 --- /task ---
+
 --- task ---
 To add execute permission for the user, type this command:
+
 ```bash
 chmod u+x welcome.sh
 ```
 This gives you, the *u*ser, permission to run (e*x*ecute) this file as a command. 
 
 `chmod` is short for change mode. 
+
 
 --- /task ---
 
@@ -73,12 +77,13 @@ Repeat the command to see the properties of `welcome.sh`
 ls -l welcome.sh
 ```
 --- /task ---
+
 --- task ---
 Tip: You can use the up arrow on your keyboard to reuse existing commands (and edit them.)
 
 Now you should see that the user has execute permission. 
 
-```
+```bash
 -rwxr--r--
 ```
 
@@ -122,6 +127,7 @@ First close all the windows you have open by clicking the 'x' in the top-right c
 
 Then open the Main Menu and choose Shutdown then Reboot. 
 --- /task ---
+
 --- task ---
 Log back in to your Raspberry Pi. 
 
