@@ -72,7 +72,7 @@ Repeat the command to see the properties of `welcome.sh`
 ```bash
 ls -l welcome.sh
 ```--- /task ---
-
+--- task ---
 Tip: You can use the up arrow on your keyboard to reuse existing commands (and edit them.)
 
 Now you should see that the user has execute permission. 
@@ -120,7 +120,7 @@ For this change to take effect you will need to reboot your computer.
 First close all the windows you have open by clicking the 'x' in the top-right corner. 
 
 Then open the Main Menu and choose Shutdown then Reboot. 
-
+--- /task ---
 --- task ---
 Log back in to your Raspberry Pi. 
 
