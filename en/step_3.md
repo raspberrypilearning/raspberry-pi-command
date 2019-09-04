@@ -71,7 +71,8 @@ Repeat the command to see the properties of `welcome.sh`
 
 ```bash
 ls -l welcome.sh
-```--- /task ---
+```
+--- /task ---
 --- task ---
 Tip: You can use the up arrow on your keyboard to reuse existing commands (and edit them.)
 
