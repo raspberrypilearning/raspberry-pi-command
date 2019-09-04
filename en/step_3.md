@@ -78,3 +78,68 @@ ls -l welcome.sh
 ```
 --- /task ---
 
+--- task ---
+Tip: You can use the up arrow on your keyboard to reuse existing commands (and edit them.)
+
+Now you should see that the user has execute permission. 
+
+```bash
+-rwxr--r--
+```
+
+You don't need to worry about permissions for other users as you will be the only one running this script in this project. 
+--- /task ---
+
+--- task ---
+Now return to the Geany editor and press 'F5' or the Run button again. This time you should see a terminal window with the output of your program. 
+
+![Welcome output](images/command_output.png)
+
+--- /task ---
+
+--- task ---
+Now it's easy to add more lines to your script. 
+
+Add another line to the end of your script:
+
+```bash
+echo "Welcome to $HOSTNAME" 
+```
+
+Your script can use enviroment variables such as $HOSTNAME to access information. 
+
+$HOSTNAME contains the name of your Raspberry Pi computer on the network.
+
+--- /task ---
+
+--- task ---
+You can change the hostname of your Raspberry Pi by opening the Main Menu and choosing 'Preferences' then 'Raspberry Pi Configuration'. 
+
+Give your Raspberry Pi computer a name of your choice. 
+
+![Welcome output](images/command_output.png)
+
+--- /task ---
+
+--- task ---
+For this change to take effect you will need to reboot your computer. 
+
+First close all the windows you have open by clicking the 'x' in the top-right corner. 
+
+Then open the Main Menu and choose Shutdown then Reboot. 
+--- /task ---
+
+--- task ---
+Log back in to your Raspberry Pi. 
+
+Open the Geany editor ('Main Menu' then 'Programming). 
+
+It should open the file you were working on. Or you can choose 'File' then 'Open' and choose 'welcome.sh'
+
+--- /task ---
+
+--- task ---
+Now run your script again and you should see the new hostname. 
+
+--- /task ---
+
