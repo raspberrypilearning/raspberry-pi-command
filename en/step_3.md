@@ -28,7 +28,7 @@ echo "It's $(date +%A)"
 
 --- /task ---
 
---- task
+--- task ---
 
 Press 'F5' or click the Run (paper aeroplane) button to run your command. Your file will automatically be saved.
 
@@ -55,7 +55,7 @@ There are three possible permissions: read, write and execute and these can be s
 The user is able to read and write to this file but not execute it. 
 
 --- /task ---
- task ---
+--- task ---
 To add execute permission for the user, type this command:
 ```bash
 chmod u+x welcome.sh
