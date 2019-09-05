@@ -23,7 +23,7 @@ You can use numbers from 31 to 37 to get different colours. Try it.
 
 Tip: Remember you can use the up arrow on the keyboard to get your previous command back and use left and right and backspace to edit the command. This means you don't have to type the whole command lots of times to try different colours. 
 
---- /task
+--- /task ---
 
 --- task ---
 Now type the message 'Hello' in orange text.
