@@ -54,6 +54,8 @@ The final echo outputs a newline so that the command prompt appears on the left.
 --- task ---
 Test your script using F5 or by running it from the command line.
 
+--- /task ---
+
 --- task ---
 If you use '48;5' instead of '38;5' then you can change the background colour instead of the foreground colour. Change your script to show the full range of background colours. 
 
@@ -68,7 +70,9 @@ for i in {0...255} ; do echo -en "\e[48;5;${i}m ${i} \e[0m" ; done ; echo
 The only change is that it uses 48 instead of 38.
 --- /hint ---
 --- /hints ---
+
 --- /task ---
+
 --- task ---
 Now add your command to the `Accessories` section of the Main Menu. 
 
