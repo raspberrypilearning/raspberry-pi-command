@@ -26,6 +26,7 @@ Add the following lines to your script:
 echo "It's $(date +%A)"
 ```
 
+The first line says that this is a script that can be run using the bash command. 
 --- /task ---
 
 --- task ---
@@ -100,7 +101,7 @@ Now return to the Geany editor and press 'F5' or the Run button again. This time
 --- task ---
 Now it's easy to add more lines to your script. 
 
-Add another line to the end of your script:
+Add another line to the beginning of your script:
 
 ```bash
 echo "Welcome to $HOSTNAME" 
