@@ -95,4 +95,4 @@ echo -e "\e[0:35mIt's \e[1;35m$(date +%A)]"
 --- /hint ---
 
 --- /hints ---
---- /task
+--- /task ---
