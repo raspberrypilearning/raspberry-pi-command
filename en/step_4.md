@@ -82,10 +82,10 @@ You'll need to add '-e' to your echo commands and escape sequences beginning wit
 The first echo command needs to use normal and bolded orange (yellow). The second echo command needs to use normal and bolded magenta.
 --- /hint ---
 --- hint ---
-You'll need the following escape codes: `e[0;33m`, `e[1;33m`, e[0;35m` and `e[1;35m`.
+You'll need the following escape codes: `e[0;33m`, `e[1;33m`, `e[0;35m` and `e[1;35m`.
 --- /hint ---
 --- hint ---
-Your script should look like this:
+The echo lines in your script should look like this:
 
 ```bash
 echo -e "\e[0;33mWelcome to \e[1;33m$HOSTNAME"
