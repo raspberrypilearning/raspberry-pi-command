@@ -60,6 +60,7 @@ echo -e "\e[1;33mHello \e[35mWorld"
 
 For some colours the brighter version is a different colour so orange becomes yellow. 
 
+--- /task ---
 --- task ---
 
 If you want to use regular weight text after bold text then you can use the code '0'. 
@@ -82,8 +83,6 @@ In the second command, the word "World" uses regular weight font whereas in the 
 
 --- /task ---
 
---- /task ---
-
 --- task ---
 If you want to reset the colour back to default you can use `\e[0m`:
 
@@ -92,4 +91,5 @@ echo -e "Default \e[31mRed \e[0mDefault"
 ```
 
 --- /task ---
+
 
