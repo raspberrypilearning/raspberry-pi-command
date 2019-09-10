@@ -124,9 +124,9 @@ and
 echo -e "\e[1;33mHello \e[0;35mWorld"
 ```
 
---- collapse ---
+
 In the second command, the word "World" uses regular weight font whereas in the first command, the bold setting is still turned on.
---- /collapse ---
+
 
 --- /task ---
 
