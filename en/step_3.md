@@ -10,7 +10,7 @@ geany welcome.sh &
 ```
 Giving the file the extension '.sh' tells Geany that you'll be writing a shell script. This means that Geany can highlight the text in different colours and knows how to run your script.
 
-The ampersand (&) on the end of the line says that you want to be able to type more commands while Geany is still running. We say that Geny is running in the background. 
+The ampersand (&) on the end of the line says that you want to be able to type more commands while Geany is still running. We say that Geany is running in the background. 
 
 Tip: You can also open Geany by clicking the Raspberry in the top left of the screen to open the Main Menu and select Programming and then Geany Programmer's Editor. 
 
@@ -37,7 +37,7 @@ A Terminal window will pop up and try and run your command. It will fail with th
 
 ![Permission denied](images/command_denied.png)
 
-Press return to close this window.
+Press return (Enter) to close this window.
 
 --- /task ---
 
@@ -116,7 +116,7 @@ $HOSTNAME contains the name of your Raspberry Pi computer on the network.
 --- task ---
 You can change the hostname of your Raspberry Pi by opening the Main Menu and choosing 'Preferences' then 'Raspberry Pi Configuration'. 
 
-Give your Raspberry Pi computer a name of your choice. 
+Give your Raspberry Pi computer a name of your choice. Hostnames use only lower case letters. 
 
 ![Welcome output](images/command_output.png)
 
@@ -131,11 +131,9 @@ Then open the Main Menu and choose Shutdown then Reboot.
 --- /task ---
 
 --- task ---
-Log back in to your Raspberry Pi. 
+When your Raspberry Pi has rebooted you'll need to open the Geany editor ('Main Menu' then 'Programming). 
 
-Open the Geany editor ('Main Menu' then 'Programming). 
-
-It should open the file you were working on. Or you can choose 'File' then 'Open' and choose 'welcome.sh'
+Choose 'File' then 'Open' and select 'welcome.sh'
 
 --- /task ---
 

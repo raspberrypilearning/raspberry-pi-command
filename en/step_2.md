@@ -25,7 +25,7 @@ Now use `echo` with text of your choice instead of 'Hello World'.
 --- /task ---
 
 --- task ---
-If you include a single quote (apostrophe) in your text then you'll see a `>` prompt because the command thinks you haven't finished entering text. Try it:
+If you include a single quote in your text then you'll see a `>` prompt because the command thinks you haven't finished entering text. Try it:
 
 ```bash
 echo It's Monday
@@ -35,7 +35,7 @@ echo It's Monday
 
 This isn't what you want.
 
-You can either enter another single quote ``` to complete entering the text or hold down Ctrl and then tap C (Ctrl-C) to cancel the command. 
+You can either enter another single quote "'" to complete entering the text or hold down Ctrl and then tap C (Ctrl-C) to cancel the command. 
 --- /task ---
 
 --- task ---
@@ -59,7 +59,7 @@ date
 This gives the full date, but you can just ask for the day of the week. Adding a '+' and then format options allows you to just get part of the date. Adding "%A" will give the full weekday name in your local language. 
 
 ```bash
-date +"%A"
+date +%A
 ```
 --- /task ---
 
