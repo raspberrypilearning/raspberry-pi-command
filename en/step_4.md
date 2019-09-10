@@ -80,8 +80,13 @@ echo -e "\e[1;33mHello \e[0;35mWorld"
 ```
 
 
-In the second command, the word "World" uses regular weight font whereas in the first command, the bold setting is still turned on.
+--- collapse ---
+---
+title: Answer
+---
 
+In the second command, the word "World" uses regular weight font whereas in the first command, the bold setting is still turned on.
+--- /collapse ---
 
 --- /task ---
 
