@@ -3,11 +3,13 @@
 Commands are instructions you can type at the terminal on the Raspberry Pi. 
 
 --- task ---
-Open a terminal from the taskbar. 
+Open a terminal window from the taskbar. 
 
 ![terminal icon](images/command-terminal.png)
 
 --- /task ---
+
+You will see a 'prompt'
 
 There are lots of commands you can type at the terminal. One of them is called `echo` and will type back the text you enter. 
 

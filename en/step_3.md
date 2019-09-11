@@ -1,6 +1,6 @@
 ## Create your own command
 
-You have used the `echo` and `date` commands. You can also write your own commands by combining commands such as these in a file. You will use the Geany Programmer's Editor to create your command (also called a script.) This is useful when you want to write longer or more complex commands. 
+You have used the `echo` and `date` commands. You can also write your own commands by combining commands such as these in a file. You will use the Geany Programmer's Editor to write a script that can be used as a command. This is useful when you want to write longer or more complex sequences of commands. 
 
 --- task ---
 You can start the Geany editor from the command line. Type the following command:
@@ -14,8 +14,6 @@ The ampersand (&) on the end of the line says that you want to be able to type m
 
 Tip: You can also open Geany by clicking the Raspberry in the top left of the screen to open the Main Menu and select Programming and then Geany Programmer's Editor. 
 
-![Open Geany](images/command_geany.png)
-
 --- /task ---
 
 --- task ---
@@ -26,22 +24,25 @@ Add the following lines to your script:
 echo "It's $(date +%A)"
 ```
 
-The first line says that this is a script that can be run using the bash command. 
+The first line says that this is a script that can be run using the Bash language. 
 --- /task ---
 
 --- task ---
 
 Press 'F5' or click the Run (paper aeroplane) button to run your command. Your file will automatically be saved.
 
-A Terminal window will pop up and try and run your command. It will fail with the error 'Permission denied'.
+A terminal window will pop up and try and run your command. It will fail with the error 'Permission denied'. This means that you don't have permission to run your script as a command. 
 
-![Permission denied](images/command_denied.png)
+![Permission denied](images/command-denied.png)
 
 Press return (Enter) to close this window.
 
 --- /task ---
 
+You need to tell Raspbian that you want your script to be executable so you can run it as a command.
+
 --- task ---
+
 Return to the terminal window where you have been entering commands (or open a new one from the Taskbar icon if you closed it.)
 
 Type this command to see the properties of `welcome.sh`
@@ -68,11 +69,10 @@ This gives you, the *u*ser, permission to run (e*x*ecute) this file as a command
 
 `chmod` is short for change mode. 
 
-
 --- /task ---
 
 --- task ---
-Repeat the command to see the properties of `welcome.sh`
+Repeat the `ls -l ` command to see the properties of `welcome.sh`
 
 ```bash
 ls -l welcome.sh
@@ -94,17 +94,19 @@ You don't need to worry about permissions for other users as you will be the onl
 --- task ---
 Now return to the Geany editor and press 'F5' or the Run button again. This time you should see a terminal window with the output of your program. 
 
-![Welcome output](images/command_output.png)
+![Welcome output](images/command-output.png)
 
 --- /task ---
 
 --- task ---
 Now it's easy to add more lines to your script. 
 
-Add another line to the beginning of your script:
+Add another line to the *beginning* of your script, after the "#!/bin/bash" line:
 
 ```bash
-echo "Welcome to $HOSTNAME" 
+#!/bin/bash
++echo "Welcome to $HOSTNAME" 
+echo "It's $(date +%A)"
 ```
 
 Your script can use environment variables such as $HOSTNAME to access information. 
