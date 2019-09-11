@@ -94,7 +94,7 @@ In the second command, the word "World" uses regular weight font whereas in the 
 --- /task ---
 
 --- task ---
-If you want to reset the colour back to default you can use `\e[0m`:
+If you want to reset the effects back to default you can use `\e[0m`:
 
 ```bash
 echo -e "Default \e[31mRed \e[0mDefault"

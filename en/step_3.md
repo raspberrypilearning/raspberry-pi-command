@@ -107,7 +107,7 @@ Add another line to the beginning of your script:
 echo "Welcome to $HOSTNAME" 
 ```
 
-Your script can use enviroment variables such as $HOSTNAME to access information. 
+Your script can use environment variables such as $HOSTNAME to access information. 
 
 $HOSTNAME contains the name of your Raspberry Pi computer on the network.
 
@@ -142,3 +142,32 @@ Now run your script again and you should see the new hostname.
 
 --- /task ---
 
+
+--- task ---
+
+Another useful Bash command is `sleep` you can use it to wait a number of seconds before running the next command. 
+
+For example:
+
+```bash
+sleep 1
+```
+
+Add a sleep command after each of the echo commands in your script to create a delay. 
+
+--- hints ---
+--- hint ---
+Your code should look like this:
+
+```bash
+#!/bin/bash
+echo "It's $(date +%A)"
+sleep 1
+echo "Welcome to $HOSTNAME"
+sleep 1
+```
+
+--- /hint ---
+--- /hints ---
+
+--- /task ---

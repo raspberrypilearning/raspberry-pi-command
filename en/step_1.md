@@ -1,15 +1,15 @@
 ## Introduction
 
-In this project you will write a new command that can be typed in a terminal or run from the Main Menu on the Raspberry Pi. Your command will display a message in coloured text. 
+The Raspberry Pi runs the Raspbian operating system which makes use of the Bash scripting language. When you type commands into a terminal window on the Raspberry Pi, you are typing Bash commands. You can put multiple commands into a file to create a Bash script which creates a new command that can be typed in a terminal window or run from the Main Menu on the Raspberry Pi. 
+
+In this project you will learn some Bash commands and create your own command to display a message in coloured text and use other colour effects. 
+
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+
 --- /no-print ---
 
 --- print-only ---
@@ -22,13 +22,11 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ RaspberryPi computer
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ A recent install of Raspbian (Buster or later), earlier versions may not support all of the shell functionality used in this project unless you update the terminal application.
 
 ### Downloads
 
@@ -41,8 +39,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ echo, date and sleep Bash commands
++ using the Geany editor to create a Bash script
++ adding a new command to the main menu and desktop on the Raspberry Pi
 
 --- /collapse ---
 

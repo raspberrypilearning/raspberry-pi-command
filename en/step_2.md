@@ -5,7 +5,7 @@ Commands are instructions you can type at the terminal on the Raspberry Pi.
 --- task ---
 Open a terminal from the taskbar. 
 
-![terminal icon](images/command_terminal.png)
+![terminal icon](images/command-terminal.png)
 
 --- /task ---
 
@@ -18,6 +18,10 @@ Type the following command at the terminal followed by 'enter':
 echo Hello World
 ```
 --- /task ---
+
+You should see the text "Hello World" in your terminal window followed by the prompt so you can enter another command:
+
+![Echo output](images/command-hello-world-output.png)
 
 --- task ---
 Now use `echo` with text of your choice instead of 'Hello World'. 
@@ -72,4 +76,3 @@ echo "It's $(date +%A)"
 --- /task ---
 
 Tip: If you want to discover more formatting codes for the date command, type `date --help`. You'll need to scroll up to see them all.
-
