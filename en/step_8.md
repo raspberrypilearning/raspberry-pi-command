@@ -56,6 +56,7 @@ scrot bash-colours.jpg -s
 ```
 --- /task ---
 
+--- task ---
 The image file that scrot creates is quite large but it can also generate a thumbnail image. 
 
 Run this command (and click on your output window):
