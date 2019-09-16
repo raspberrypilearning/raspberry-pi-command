@@ -104,9 +104,7 @@ Now it's easy to add more lines to your script.
 Add another line to the *beginning* of your script, after the "#!/bin/bash" line:
 
 ```bash
-#!/bin/bash
-+echo "Welcome to $HOSTNAME" 
-echo "It's $(date +%A)"
+echo "Welcome to $HOSTNAME" 
 ```
 
 Your script can use environment variables such as $HOSTNAME to access information. 
@@ -115,12 +113,14 @@ $HOSTNAME contains the name of your Raspberry Pi computer on the network.
 
 --- /task ---
 
+You can change the hostname of your Raspberry Pi 
+
 --- task ---
-You can change the hostname of your Raspberry Pi by opening the Main Menu and choosing 'Preferences' then 'Raspberry Pi Configuration'. 
+Open the Main Menu and choose 'Preferences' then 'Raspberry Pi Configuration'. 
 
 Give your Raspberry Pi computer a name of your choice. Hostnames use only lower case letters. 
 
-![Welcome output](images/command_output.png)
+![Change hostname](images/command-change-hostname.png)
 
 --- /task ---
 
@@ -129,31 +129,30 @@ For this change to take effect you will need to reboot your computer.
 
 First close all the windows you have open by clicking the 'x' in the top-right corner. 
 
-Then open the Main Menu and choose Shutdown then Reboot. 
+Then open the Main Menu and choose 'Shutdown' then 'Reboot'. 
 --- /task ---
 
 --- task ---
-When your Raspberry Pi has rebooted you'll need to open the Geany editor ('Main Menu' then 'Programming). 
+When your Raspberry Pi has rebooted you'll need to open the Geany editor ('Main Menu' then 'Programming'). 
 
 Choose 'File' then 'Open' and select 'welcome.sh'
 
 --- /task ---
 
 --- task ---
-Now run your script again and you should see the new hostname. 
+Now run your script again using F5 and you should see the new hostname. 
 
 --- /task ---
 
 
---- task ---
-
-Another useful Bash command is `sleep` you can use it to wait a number of seconds before running the next command. 
+Another useful Bash command is `sleep`. You can use it to wait a number of seconds before running the next command. 
 
 For example:
 
 ```bash
 sleep 1
 ```
+--- task ---
 
 Add a sleep command after each of the echo commands in your script to create a delay. 
 
