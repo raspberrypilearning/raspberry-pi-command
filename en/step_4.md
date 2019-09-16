@@ -1,6 +1,6 @@
 ## Add text effects
 
-Now let's add some text effects. You can change the colour of the text and use underlining, italic and other features. 
+Now let's add some text effects. You can change the colour of the text and use underlining, italics and other features. 
 
 First you'll learn how to use colour effects by typing commands at the command line and then you'll add colour effects to your script. 
 
@@ -12,18 +12,18 @@ echo -e "\e[32mWelcome"
 ```
 ![Welcome text in green](images/command-green-text.png)
 
+--- /task ---
+
 The '-e' tells the echo command to look for escape sequences of characters (with a backslash before them).
 The '\e[ ... m' tells the echo command that the following characters should be treated as a special code.
 The '32' says that the text colour should be green.
 
---- /task ---
-
 --- task ---
 You can use numbers from 31 to 37 to get different colours. Try it. 
 
-Tip: Remember you can use the up arrow on the keyboard to get your previous command back and use left and right and backspace to edit the command. This means you don't have to type the whole command lots of times to try different colours. 
-
 --- /task ---
+
+Tip: Remember you can use the up arrow on the keyboard to get your previous command back and use left and right and backspace to edit the command. This means you don't have to type the whole command lots of times to try different colours. 
 
 --- task ---
 Now type the message 'Hello' in orange text.
@@ -51,9 +51,18 @@ echo -e "\e[33mWelcome"
 
 --- task ---
 
-The codes apply to all text after them. You can use another code to set a different colour. You can also use the number 1 for bold / bright text.
+The codes apply to all text after them. You can use another code to set a different colour. 
 
 Type this command to try it out.
+
+```bash
+echo -e "\e[33mHello \e[35mWorld"
+```
+
+--- /task ---
+
+--- task ---
+You can also use the number 1 for bold / bright text.
 
 ```bash
 echo -e "\e[1;33mHello \e[35mWorld"
@@ -65,7 +74,7 @@ For some colours the brighter version is a different colour so orange becomes ye
 
 --- task ---
 
-If you want to use regular weight text after bold text then you can use the code '0'. 
+If you want to use regular text after bold or another effect then you can use the code '0'. 
 
 What is the difference between the output of these two commands?
 
