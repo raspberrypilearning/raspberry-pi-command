@@ -6,7 +6,7 @@ So far, you've been running your command from the command line. Let's add it to 
 
 Open the Main Menu (Click on the Raspberry) and choose 'Preferences' then 'Main Menu Editor'.
 
-![Main Menu Editor](images/command-main-menu-editor.png)
+![Main Menu Editor](images/command-menu-editor.png)
 
 --- /task ---
 
