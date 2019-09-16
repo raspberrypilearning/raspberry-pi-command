@@ -84,6 +84,8 @@ The only change is that it uses 48 instead of 38.
 --- task ---
 Now add your command to the `Accessories` section of the Main Menu. 
 
+![Colored numbers](images/command-colours-menu.png)
+
 Look back at the previous step if you need help.
 
 Remember you will need to make sure that your command reads a character before exitting. 

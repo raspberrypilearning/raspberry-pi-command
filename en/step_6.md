@@ -21,7 +21,7 @@ Add 'Show a welcome message' to the 'Comment box'
 
 Click the 'Launch in Terminal?' box
 
-![Main Menu Editor](images/command-welcome-menu-config.png)
+![Main Menu Editor](images/command-welcome-menu-item.png)
 
 Click OK.
 
@@ -62,9 +62,16 @@ You can also add your command to the desktop.
 
 Open the Main Menu and choose 'Other' then right-click on your Welcome command and choose 'Add to desktop'.
 
+![Main Menu Editor](images/command-welcome-add.png)
+
 A new icon will appear on the desktop which you can also use to launch your command.  
 
+![Main Menu Editor](images/command-welcome-desktop.png)
+
+
 Click on the Welcome icon and choose 'Execute' to run your command.
+
+![Main Menu Editor](images/command-welcome-desktop-execute.png)
 
 --- /task ---
 
