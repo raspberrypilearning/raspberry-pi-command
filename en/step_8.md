@@ -43,9 +43,7 @@ scrot -s
 --- /task ---
 
 --- task ---
-Use the Image Viewer to see the screenshot:
-
-![Main Menu Editor](images/command-screenshot.png)
+Use the Image Viewer to see the screenshot.
 
 --- /task ---
 --- task ---
