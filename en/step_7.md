@@ -54,10 +54,18 @@ The final echo outputs a newline so that the command prompt appears on the left.
 --- task ---
 Test your script using F5 or by running it from the command line.
 
+The output should look like this:
+
+![Colored numbers](images/command-256-foreground.png)
+
 --- /task ---
 
 --- task ---
 If you use '48;5' instead of '38;5' then you can change the background colour instead of the foreground colour. Change your script to show the full range of background colours. 
+
+The output of your command should look like this:
+![Colored numbers](images/command-256-background.png)
+
 
 --- hints ---
 --- hint ---
