@@ -8,6 +8,8 @@ In this project you will learn some Bash commands and create your own command to
 ### What you will make
 
 --- no-print ---
+You will write your own script which can be run as a command from a terminal window or from the main menu on the Raspberry Pi.
+
 ![Complete project](images/command-showcase.gif)
 
 --- /no-print ---
