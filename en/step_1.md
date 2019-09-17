@@ -8,7 +8,7 @@ In this project you will learn some Bash commands and create your own command to
 ### What you will make
 
 --- no-print ---
-![Complete project](images/command-showcase.gif")
+![Complete project](images/command-showcase.gif)
 
 --- /no-print ---
 
