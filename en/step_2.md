@@ -37,7 +37,7 @@ If you include a single quote in your text then you'll see a `>` prompt because 
 echo It's Monday
 ```
 
-![prompt](images/command_prompt.png)
+![prompt](images/command-prompt.png)
 
 This isn't what you want.
 
