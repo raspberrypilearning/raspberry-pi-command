@@ -96,8 +96,6 @@ title: Answer
 
 In the second command, the word "World" uses regular weight font whereas in the first command, the bold setting is still turned on.
 
-![Welcome text in green](images/command-green-text.png)
-
 --- /collapse ---
 
 --- /task ---
