@@ -8,7 +8,7 @@ In this project you will learn some Bash commands and create your own command to
 ### What you will make
 
 --- no-print ---
-<embed src="command-showcase.mp4" autostart="true" />
+<embed src="images/command-showcase.mp4" autostart="true" />
 
 --- /no-print ---
 
