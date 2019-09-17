@@ -154,7 +154,7 @@ sleep 1
 ```
 --- task ---
 
-Add a sleep command after each of the echo commands in your script to create a delay. 
+Add a sleep command in between the echo commands in your script to create a delay. 
 
 --- hints ---
 --- hint ---
@@ -165,7 +165,6 @@ Your code should look like this:
 echo "It's $(date +%A)"
 sleep 1
 echo "Welcome to $HOSTNAME"
-sleep 1
 ```
 
 --- /hint ---

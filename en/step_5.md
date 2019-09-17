@@ -16,6 +16,7 @@ You can combine these. The following command creates bold underlined red text:
 echo -e "\e[1;3;4;31mHello]"
 ```
 
+
 Now try using what you know to create your own colourful welcome command. You could include an inspirational quote or use the `date` command to show the time. 
 
 
