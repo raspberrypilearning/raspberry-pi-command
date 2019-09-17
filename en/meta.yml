@@ -1,6 +1,6 @@
-title: raspberry-pi-command
+title: Create a new command on the Raspberry Pi
 hero_image: images/banner.png
-description: raspberry-pi-command description
+description: Write a new Bash script that can be run as a command from a terminal window or the main menu.
 version: 4
 listed: false
 copyedit: false
