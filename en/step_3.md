@@ -8,9 +8,13 @@ You can start the Geany editor from the command line. Type the following command
 ```bash
 geany welcome.sh &
 ```
-Giving the file the extension '.sh' tells Geany that you'll be writing a shell script. This means that Geany can highlight the text in different colours and knows how to run your script.
+This creates a new file named 'welcome'. 
 
-The ampersand (&) on the end of the line says that you want to be able to type more commands while Geany is still running. We say that Geany is running in the background. 
+Giving the file the extension `.sh` tells Geany that you'll be writing a shell script. This means that Geany can highlight the text in different colours and knows how to run your script.
+
+The ampersand `&` on the end of the line says that you want to be able to type more commands while Geany is still running. We say that Geany is running in the background. 
+
+![Geany window](images/Geany.png)
 
 Tip: You can also open Geany by clicking the Raspberry in the top left of the screen to open the Main Menu and select Programming and then Geany Programmer's Editor. 
 
@@ -39,7 +43,7 @@ Press return (Enter) to close this window.
 
 --- /task ---
 
-You need to tell Raspbian that you want your script to be executable so you can run it as a command.
+You need to tell Raspberry Pi OS that you want your script to be executable so you can run it as a command.
 
 --- task ---
 

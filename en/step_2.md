@@ -41,7 +41,7 @@ echo It's Monday
 
 This isn't what you wanted.
 
-You can either enter another single quote, `'`, to complete entering the command. 
+You can either enter another single quote, `'`, to complete the command. 
 
 ![prompt](images/monday_apostophe.png)
 
