@@ -30,10 +30,6 @@ title: What you will need
 
 + A recent install of Raspberry Pi OS (Buster or later), earlier versions may not support all of the shell functionality used in this project unless you update the terminal application.
 
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/raspberry-pi-command-go){:target="_blank"}
-
 --- /collapse ---
 
 --- collapse ---
@@ -54,6 +50,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/raspberry-pi-command/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/raspberry-pi-command-go).
+[Here is a link to the resources created in this project](http://rpf.io/raspberry-pi-command-get).
 
 --- /collapse ---
