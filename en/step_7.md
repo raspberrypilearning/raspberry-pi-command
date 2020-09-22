@@ -1,6 +1,6 @@
 ## More colours
 
-Some terminals, including the default Raspbian one, allow you to use even more colours. 
+Some terminals, including the default Raspberry Pi OS one, allow you to use even more colours. 
 
 --- task ---
 You can choose from 256 different colours numbered from 0 (black) to 255 (white).
@@ -40,7 +40,7 @@ Add the following to your 'bash-colours.sh' script.
 
 ```bash
 #!/bin/bash
-for i in {0...255} ; do echo -en "\e[38;5;${i}m ${i} \e[0m" ; done ; echo
+for i in {0..255} ; do echo -en "\e[38;5;${i}m ${i} \e[0m" ; done ; echo
 ```
 
 The loop runs the echo command once for each colour in the range 0 to 255.
@@ -72,7 +72,7 @@ The output of your command should look like this:
 Edit your command so that it looks like this:
 
 ```bash
-for i in {0...255} ; do echo -en "\e[48;5;${i}m ${i} \e[0m" ; done ; echo
+for i in {0..255} ; do echo -en "\e[48;5;${i}m ${i} \e[0m" ; done ; echo
 ```
 
 The only change is that it uses 48 instead of 38.

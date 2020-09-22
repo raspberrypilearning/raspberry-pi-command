@@ -14,7 +14,7 @@ echo -e "\e[32mWelcome"
 
 --- /task ---
 
-The '-e' tells the echo command to look for escape sequences of characters (with a backslash before them).
+The '-e' tells the echo command to look for escape sequences with a backslash before them. These are sequences of characters that have a special meaning, for example '\n' means print a new line.
 The '\e[ ... m' tells the echo command that the following characters should be treated as a special code.
 The '32' says that the text colour should be green.
 
