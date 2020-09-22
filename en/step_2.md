@@ -39,9 +39,16 @@ echo It's Monday
 
 ![prompt](images/command-prompt.png)
 
-This isn't what you want.
+This isn't what you wanted.
 
-You can either enter another single quote "'" to complete entering the text or hold down Ctrl and then tap C (Ctrl-C) to cancel the command. 
+You can either enter another single quote, `'`, to complete entering the command. 
+
+![prompt](images/monday_apostophe.png)
+
+Or hold down the Control button and then tap C (Ctrl-C) to cancel the command. 
+
+![prompt](images/monday_controlC.png)
+
 --- /task ---
 
 --- task ---

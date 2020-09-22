@@ -1,6 +1,6 @@
 ## Introduction
 
-The Raspberry Pi runs the Raspbian operating system which makes use of the Bash scripting language. When you type commands into a terminal window on the Raspberry Pi, you are typing Bash commands. You can put multiple commands into a file to create a Bash script which creates a new command that can be typed in a terminal window or run from the Main Menu on the Raspberry Pi. 
+The Raspberry Pi runs the Raspberry Pi OS operating system which makes use of the Bash scripting language. When you type commands into a terminal window on the Raspberry Pi, you are typing Bash commands. You can put multiple commands into a file to create a Bash script which creates a new command that can be typed in a terminal window or run from the Main Menu on the Raspberry Pi. 
 
 In this project you will learn some Bash commands and create your own command to display a message in coloured text and use other colour effects. 
 
@@ -28,7 +28,7 @@ title: What you will need
 
 ### Software
 
-+ A recent install of Raspbian (Buster or later), earlier versions may not support all of the shell functionality used in this project unless you update the terminal application.
++ A recent install of Raspberry Pi OS (Buster or later), earlier versions may not support all of the shell functionality used in this project unless you update the terminal application.
 
 ### Downloads
 
