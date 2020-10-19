@@ -1,11 +1,11 @@
 ## Add text effects
 
-Now let's add some text effects. You can change the colour of the text and use underlining, italics and other features. 
+Now, you will add some text effects. You can change the colour of the text and use underlining, italics, and other features. 
 
-First you'll learn how to use colour effects by typing commands at the command line and then you'll add colour effects to your script. 
+First, you will learn how to use colour effects by typing commands in the command line, and then, you will add colour effects to your script. 
 
 --- task ---
-Open a terminal window and type the following command to output 'Welcome' in green text:
+Open a terminal window and type the following command to output `Welcome` in green text:
 
 ```bash
 echo -e "\e[32mWelcome"
@@ -14,19 +14,19 @@ echo -e "\e[32mWelcome"
 
 --- /task ---
 
-The '-e' tells the echo command to look for escape sequences with a backslash before them. These are sequences of characters that have a special meaning, for example '\n' means print a new line.
-The '\e[ ... m' tells the echo command that the following characters should be treated as a special code.
-The '32' says that the text colour should be green.
+The `-e` tells the `echo` command to look for escape sequences with a backslash before them. These are sequences of characters that have a special meaning; for example, `\n` means 'print a new line'.
+The `\e[ ... m` tells the `echo` command that the following characters should be treated as a special code.
+The `32` says that the text colour should be green.
 
 --- task ---
-You can use numbers from 31 to 37 to get different colours. Try it. 
+You can use numbers from `31` to `37` to get different colours. Try it. 
 
 --- /task ---
 
-Tip: Remember you can use the up arrow on the keyboard to get your previous command back and use left and right and backspace to edit the command. This means you don't have to type the whole command lots of times to try different colours. 
+**Tip:** Remember that you can use the <kbd>Up</kbd> arrow on the keyboard to get your previous command back, and use <kbd>Left</kbd> and <kbd>Right</kbd> and <kbd>Backspace</kbd> to edit the command. This means that you don't have to type the whole command lots of times to try different colours. 
 
 --- task ---
-Now type the message 'Hello' in orange text.
+Now type the message `Hello` in orange text.
 
 --- hints ---
 --- hint ---
@@ -36,7 +36,7 @@ The following command creates green text:
 echo -e "\e[32mWelcome"
 ```
 
-Change the number 32 to different numbers from 31 to 37 and see which one gives you orange text.
+Change the number `32` to different numbers from `31` to `37` and see which one gives you orange text.
 --- /hint ---
 --- hint ---
 You need this command:
@@ -53,7 +53,7 @@ echo -e "\e[33mWelcome"
 
 The codes apply to all text after them. You can use another code to set a different colour. 
 
-Type this command to try it out.
+Type this command to try it:
 
 ```bash
 echo -e "\e[33mHello \e[35mWorld"
@@ -62,19 +62,19 @@ echo -e "\e[33mHello \e[35mWorld"
 --- /task ---
 
 --- task ---
-You can also use the number 1 for bold / bright text.
+You can also use the number `1` for bold/bright text.
 
 ```bash
 echo -e "\e[1;33mHello \e[35mWorld"
 ```
 
-For some colours the brighter version is a different colour so orange becomes yellow. 
+For some colours, the brighter version is a different colour; for example, orange becomes yellow. 
 
 --- /task ---
 
 --- task ---
 
-If you want to use regular text after bold or another effect then you can use the code '0'. 
+If you want to use regular text after bold or another effect, then you can use the code `0`. 
 
 What is the difference between the output of these two commands?
 
@@ -94,14 +94,14 @@ echo -e "\e[1;33mHello \e[0;35mWorld"
 title: Answer
 ---
 
-In the second command, the word "World" uses regular weight font whereas in the first command, the bold setting is still turned on.
+In the second command, the word "World" uses regular-weight font, whereas in the first command, the bold setting is still turned on.
 
 --- /collapse ---
 
 --- /task ---
 
 --- task ---
-If you want to reset the effects back to default you can use `\e[0m`:
+If you want to reset the effects back to default, you can use `\e[0m`:
 
 ```bash
 echo -e "Default \e[31mRed \e[0mDefault"
@@ -110,22 +110,22 @@ echo -e "Default \e[31mRed \e[0mDefault"
 --- /task ---
 
 --- task ---
-Now go back to Geany and edit your script so that the output looks like this (but with your hostname and day of the week): 
+Now, go back to Geany and edit your script so that the output looks like this (but with your hostname and day of the week): 
 
 ![coloured welcome message](images/command-welcome-coloured.png)
 
 --- hints ---
 --- hint ---
-You'll need to add '-e' to your echo commands and escape sequences beginning with '\e[' and ending with 'm' before the text that you want to add effects to.
+You will need to add `-e` to your `echo` commands and escape sequences beginning with `\e[` and ending with `m` before the text that you want to add effects to.
 --- /hint ---
 --- hint ---
-The first echo command needs to use normal and bolded orange (yellow). The second echo command needs to use normal and bolded magenta.
+The first `echo` command needs to use normal and bold orange (yellow). The second `echo` command needs to use normal and bold magenta.
 --- /hint ---
 --- hint ---
-You'll need the following escape codes: `e[33m`, `e[1;33m`, `e[0;35m` and `e[1;35m`.
+You will need the following escape codes: `e[33m`, `e[1;33m`, `e[0;35m`, and `e[1;35m`.
 --- /hint ---
 --- hint ---
-The echo lines in your script should look like this:
+The `echo` lines in your script should look like this:
 
 ```bash
 echo -e "\e[33mWelcome to \e[1;33m$HOSTNAME"
