@@ -1,6 +1,6 @@
 ## What next?
 
-Well done! You have just completed the fifth and final project in the Raspberry Pi for beginners pathway.
+Well done! You have just completed the fifth and final project in the [Raspberry Pi for beginners pathway](https://projects.raspberrypi.org/en/pathways/raspberry-pi-beginners){:target="_blank"}.
 
 If you enjoyed this project, and the other projects in the pathway, check out some of our other [projects for Raspberry Pi](https://projects.raspberrypi.org/en/projects?hardware%5B%5D=raspberry-pi){:target="_blank"} on the Raspberry Pi projects site.
 
