@@ -14,9 +14,9 @@ Keep this window open; you will need it later.
 --- /task ---
 
 --- task ---
-Have you ever tried taking a screenshot on Raspberry Pi? It's really easy. Just tap the <kbd>Print screen</kbd> key on your keyboard and a new image file will be created in your home directory. 
+Have you ever tried taking a screenshot on Raspberry Pi? It's really easy. Just tap the <kbd>Print screen</kbd> key on your keyboard and a new image file will be created in your `home` directory. 
 
-Now, go to the main menu and choose **Graphics** then **Image Viewer**. You should see your image. If you have other images in your **home** directory, then you can click the **right** arrow until you find the screenshot that you just took.
+Now, go to the main menu and choose **Accessories** then **Image Viewer**. You should see your image. If you have other images in your `home` directory, then you can click on the **right arrow** until you find the screenshot that you just took.
 --- /task ---
 
 --- task ---
@@ -28,7 +28,7 @@ Try running `scrot` from the command line:
 scrot
 ```
 
-Then, open the Image Viewer to view the new file. 
+Then, open Image Viewer to view the new file. 
 
 --- /task ---
 
@@ -43,7 +43,7 @@ scrot -s
 --- /task ---
 
 --- task ---
-Use the Image Viewer to see the screenshot.
+Use Image Viewer to see the screenshot.
 
 --- /task ---
 --- task ---
@@ -72,14 +72,14 @@ Open the **Main Menu Editor** (from **Preferences** in the main menu).
 
 Select **Bash Colours**, then click on **Properties**.
 
-Click on the image icon and select your **home** directory then choose `bash-colours-thumb.jpg` and click on **OK**.
+Click on the image icon and select your `home` directory then choose `bash-colours-thumb.jpg` and click on **OK**.
 
 ![Main Menu Editor](images/command-set-icon.png)
 
 --- /task ---
 
 --- task ---
-Look at the **Accessories** main menu entry to see your new icon. 
+Go to the main menu, then look at the **Accessories** menu to see your new icon.
 
 ![Main Menu Editor](images/command-menu-icon.png)
 
