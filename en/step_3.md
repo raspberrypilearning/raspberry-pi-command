@@ -12,7 +12,7 @@ This creates a new file named `welcome`.
 
 Giving the file the extension `.sh` tells Geany that you will be writing a shell script. This means that Geany can highlight the text in different colours, and knows how to run your script.
 
-The ampersand `&` at the end of the line says that you want to be able to type more commands while Geany is still running. We say that Geany is running in the background. 
+The ampersand `&` at the end of the line says that you want to be able to type more commands while Geany is still running. We say that Geany is "running in the background". 
 
 ![Geany window](images/Geany.png)
 
@@ -57,7 +57,7 @@ ls -l welcome.sh
 
 You should see that the file has the permissions: `-rw-r--r--`.
 
-There are three possible permissions, read, write, and execute, and these can be set for the user (you), group, and other (everyone).
+There are three possible permissions: 'read', 'write', and 'execute'. These can be set for the 'user' (you), 'group', and 'other' (everyone).
 
 The user is able to read and write to this file, but not execute it. 
 
@@ -84,15 +84,15 @@ ls -l welcome.sh
 --- /task ---
 
 --- task ---
-**Tip:** You can use the **up** arrow on your keyboard to reuse existing commands (and edit them).
+**Tip:** You can use the <kbd>Up</kbd> arrow on your keyboard to reuse existing commands (and edit them).
 
-Now you should see that the user has execute permission. 
+Now, you should see that the user has execute permission. 
 
 ```bash
 -rwxr--r--
 ```
 
-You don't need to worry about permissions for other users, as you will be the only one running this script in this project. 
+You don't need to consider permissions for other users, as you will be the only one running this script in this project. 
 --- /task ---
 
 --- task ---
@@ -103,7 +103,7 @@ Now, return to the Geany editor and press <kbd>F5</kbd> or the **Run** button ag
 --- /task ---
 
 --- task ---
-Now it's easy to add more lines to your script. 
+Now, it's easy to add more lines to your script. 
 
 Add another line to the **beginning** of your script, after the `#!/bin/bash` line:
 
@@ -111,9 +111,9 @@ Add another line to the **beginning** of your script, after the `#!/bin/bash` li
 echo "Welcome to $HOSTNAME" 
 ```
 
-Your script can use environment variables such as $HOSTNAME to access information. 
+Your script can use environment variables such as `$HOSTNAME` to access information. 
 
-$HOSTNAME contains the name of your Raspberry Pi computer on the network.
+`$HOSTNAME` contains the name of your Raspberry Pi computer on the network.
 
 --- /task ---
 
@@ -144,7 +144,7 @@ Choose **File** then **Open** and select `welcome.sh`.
 --- /task ---
 
 --- task ---
-Now use <kbd>F5</kbd> to run your script again and you should see the new hostname. 
+Now, use <kbd>F5</kbd> to run your script again and you should see the new hostname. 
 
 --- /task ---
 
