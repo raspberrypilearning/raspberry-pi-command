@@ -42,7 +42,7 @@ If you watch carefully, you will see a terminal (command) window pop up and disa
 Your command runs, but then the window closes, so you don't get to see the output.
 
 --- task ---
-To fix the problem , add a line to the **end** of your `welcome.sh` script so that it waits for a key press before exiting: 
+To fix the problem, add a line to the **end** of your `welcome.sh` script so that it waits for a key press before exiting: 
 
 ```bash
 read -n 1
