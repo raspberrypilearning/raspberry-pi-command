@@ -1,6 +1,6 @@
 ## More colours
 
-Some terminals, including the default Raspberry Pi OS one, allow you to use even more colours. 
+Some terminals, including the default one available in Raspberry Pi OS, allow you to use even more colours.
 
 --- task ---
 You can choose from 256 different colours numbered from `0` (black) to `255` (white).
