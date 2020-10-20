@@ -14,7 +14,7 @@ You will see a 'prompt'
 There are lots of commands that you can type in the terminal. One of them is called `echo` and will type back the text that you enter. 
 
 --- task ---
-Type the following command in the terminal, followed by <kbd>Enter</kbd>:
+Type the following command in the terminal, then press <kbd>Enter</kbd>:
 
 ```bash
 echo Hello World
@@ -69,7 +69,7 @@ date
 --- /task ---
 
 --- task ---
-This gives the full date, but you can just ask for the day of the week. Adding a `+` and then format options allows you to just get part of the date. Adding `%A` will give the full weekday name in your local language. 
+This gives the full date, but you can just ask for the day of the week. You can add `+` and then format options to just get part of the date. You can add `%A` to get the full weekday name in your local language.
 
 ```bash
 date +%A
