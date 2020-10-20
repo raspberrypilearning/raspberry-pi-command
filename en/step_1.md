@@ -37,7 +37,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ `echo`, `date`, and `sleep` Bash commands
++ How to use `echo`, `date`, and `sleep` Bash commands
 + How to use the Geany editor to create a Bash script
 + How to add a new command to the main menu and desktop on Raspberry Pi
 
