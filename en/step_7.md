@@ -21,7 +21,7 @@ The Bash language allows you to write complex scripts.
 
 Open a new Geany file called `bash-colours.sh`. 
 
-If you need a reminder, look back at the 'Create a command' step.
+If you need a reminder, look back at the 'Create your own command' step.
 
 --- /task ---
 
@@ -29,7 +29,7 @@ If you need a reminder, look back at the 'Create a command' step.
 
 Make your script executable. 
 
-If you need a reminder, look back at the 'Create a command' step.
+If you need a reminder, look back at the 'Create your own command' step.
 
 --- /task ---
 
