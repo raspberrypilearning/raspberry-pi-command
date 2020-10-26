@@ -55,7 +55,7 @@ Type this command to see the properties of `welcome.sh`:
 ls -l welcome.sh
 ```
 
-You should see that the file has the permissions: `-rw-r--r--`.
+You should see that the file has the permissions `-rw-r--r--`.
 
 There are three possible permissions: 'read', 'write', and 'execute'. These can be set for the 'user' (you), 'group', and 'other' (everyone).
 
@@ -105,7 +105,7 @@ Now, return to the Geany editor and press <kbd>F5</kbd> or the **Run** button ag
 --- task ---
 Now, it's easy to add more lines to your script. 
 
-Add another line to the **beginning** of your script, after the `#!/bin/bash` line:
+Add another line to the **beginning** of your script, after the line `#!/bin/bash`:
 
 ```bash
 echo "Welcome to $HOSTNAME" 
@@ -129,17 +129,17 @@ Give your Raspberry Pi computer a name of your choice. Hostnames use only lower-
 --- /task ---
 
 --- task ---
-For this change to take effect, you will need to reboot your computer. 
+For this change to take effect, you need to reboot your computer. 
 
-First, close all the windows you have open. To do this, click on the **x** in the top right-hand corner. 
+First, close all the windows that you have open. To do this, click on the **x** in the top right-hand corner. 
 
-Then, open the main menu and choose **Shutdown** then **Reboot**. 
+Then, open the main menu and choose **Shutdown**, then **Reboot**. 
 --- /task ---
 
 --- task ---
 When your Raspberry Pi has rebooted, open the Geany editor (main menu, then **Programming**). 
 
-Choose **File** then **Open** and select `welcome.sh`.
+Choose **File**, then **Open**, and select `welcome.sh`.
 
 --- /task ---
 
