@@ -1,6 +1,6 @@
 ## What is a command?
 
-**Commands** are instructions you can type in the terminal on Raspberry Pi. 
+**Commands** are instructions that you can type in the terminal on Raspberry Pi. 
 
 --- task ---
 Open a terminal window from the taskbar.
@@ -26,12 +26,12 @@ You should see the text "Hello World" in your terminal window, followed by the p
 ![Echo output](images/command-hello-world-output.png)
 
 --- task ---
-Now use `echo` with text of your choice instead of "Hello World". 
+Now use `echo` with text of your choice, instead of "Hello World". 
 
 --- /task ---
 
 --- task ---
-If you include a single quotation mark in your text, then you'll see a `>` prompt because the command thinks that you haven't finished entering text. Try it:
+If you include a single quotation mark in your text, then you'll see a `>` prompt because the command thinks that you have not finished entering text. Try it:
 
 ```bash
 echo It's Monday
@@ -84,4 +84,4 @@ echo "It's $(date +%A)"
 ```
 --- /task ---
 
-**Tip:** If you want to discover more formatting codes for the date command, type `date --help`. You will need to scroll up to see them all.
+**Tip:** If you want to discover more formatting codes for the `date` command, type `date --help`. You will need to scroll up to see them all.
