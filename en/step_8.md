@@ -1,8 +1,8 @@
 ## Add an icon for your command 
 
-Did you notice that you get a default aeroplane icon for your scripts in the menu and on the desktop? You can create a custom icon for the `bash-colors.sh` script. 
+Did you notice that you get a default aeroplane icon for your scripts in the menu and on the desktop? You can create a custom icon for the `bash-colours.sh` script. 
 
-A good icon gives you a clear idea of what the script is or what it will do. You could draw your own icon, but in this step, we're going to use a screenshot based on the output of the command as an icon.
+A good icon gives you a clear idea of what the script is or what it will do. You could draw your own icon, but in this step, you will use a screenshot based on the output of the command as an icon.
 
 
 --- task ---
@@ -16,7 +16,7 @@ Keep this window open; you will need it later.
 --- task ---
 Have you ever tried taking a screenshot on Raspberry Pi? It's really easy. Just tap the <kbd>Print screen</kbd> key on your keyboard and a new image file will be created in your `home` directory. 
 
-Now, go to the main menu and choose **Accessories** then **Image Viewer**. You should see your image. If you have other images in your `home` directory, then you can click on the **right arrow** until you find the screenshot that you just took.
+Now, go to the main menu and choose **Accessories**, then **Image Viewer**. You should see your image. If you have other images in your `home` directory, then you can click on the **right arrow** until you find the screenshot that you just took.
 --- /task ---
 
 --- task ---
@@ -63,7 +63,7 @@ Run this command (and click on your output window):
 scrot bash-colours.jpg -t 10 -s
 ```
 
-The `-t 10` will generate a thumbnail image called `bash-colours-thumb.jpg`, which is 10% of the size of the full screenshot.
+`-t 10` will generate a thumbnail image called `bash-colours-thumb.jpg`, which is 10% of the size of the full screenshot.
 
 --- /task ---
 
@@ -72,7 +72,7 @@ Open the **Main Menu Editor** (from **Preferences** in the main menu).
 
 Select **Bash Colours**, then click on **Properties**.
 
-Click on the image icon and select your `home` directory then choose `bash-colours-thumb.jpg` and click on **OK**.
+Click on the image icon and select your `home` directory, then choose `bash-colours-thumb.jpg` and click on **OK**.
 
 ![Main Menu Editor](images/command-set-icon.png)
 
