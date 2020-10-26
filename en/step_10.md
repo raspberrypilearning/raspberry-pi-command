@@ -12,5 +12,5 @@ Feel free to look back at any of the projects in the pathway that you have just 
 + [Using your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/){:target="_blank"}
 + [Customise your Raspberry Pi desktop](https://projects.raspberrypi.org/en/projects/custom-pi-desktop/){:target="_blank"}
 + [Pac-Man treasure hunt on the terminal](https://projects.raspberrypi.org/en/projects/pacman-terminal){:target="_blank"}
-+ [Create a new command on the Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-command/){:target="_blank"}
++ [Create a new command on Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-command/){:target="_blank"}
 
