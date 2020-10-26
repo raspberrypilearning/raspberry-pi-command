@@ -9,7 +9,7 @@ Open a terminal window from the taskbar.
 
 --- /task ---
 
-You will see a 'prompt'
+You will see a 'prompt'.
 
 There are lots of commands that you can type in the terminal. One of them is called `echo` and will type back the text that you enter. 
 
@@ -26,7 +26,7 @@ You should see the text "Hello World" in your terminal window, followed by the p
 ![Echo output](images/command-hello-world-output.png)
 
 --- task ---
-Now use `echo` with text of your choice, instead of "Hello World". 
+Now, use `echo` with text of your choice, instead of "Hello World". 
 
 --- /task ---
 
