@@ -76,7 +76,7 @@ This gives you, the **u**ser, permission to run (e**x**ecute) this file as a com
 --- /task ---
 
 --- task ---
-Repeat the `ls -l ` command to see the properties of `welcome.sh`:
+Repeat the `ls -l` command to see the properties of `welcome.sh`:
 
 ```bash
 ls -l welcome.sh
