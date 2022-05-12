@@ -3,8 +3,8 @@ title: Create a new command on Raspberry Pi
 hero_image: images/banner.png
 description: Write a new Bash script that can be run as a command from a terminal window or the main menu
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: '2019-05-08'
 steps:
   - title: Introduction
