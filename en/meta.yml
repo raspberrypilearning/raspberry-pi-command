@@ -1,21 +1,24 @@
 ---
 title: Create a new command on Raspberry Pi
 hero_image: images/banner.png
-description: Write a new Bash script that can be run as a command from a terminal window or the main menu
+description: Write a new Bash script that can be run as a command from a terminal
+  window or the main menu
 version: 4
 listed: true
 copyedit: true
 last_tested: '2019-05-08'
 steps:
-  - title: Introduction
-  - title: What is a command?
-  - title: Create your own command
-    completion: engaged
-  - title: Add text effects
-  - title: "Challenge: customise your command"
-  - title: Add to the menu
-  - title: More colours
-  - title: Add an icon for your command
-    completion: internal
-  - title: "Challenge: create a new command"
-  - title: What next?
+- title: Introduction
+- title: What is a command?
+- title: Create your own command
+  completion:
+  - engaged
+- title: Add text effects
+- title: 'Challenge: customise your command'
+- title: Add to the menu
+- title: More colours
+- title: Add an icon for your command
+  completion:
+  - internal
+- title: 'Challenge: create a new command'
+- title: What next?
