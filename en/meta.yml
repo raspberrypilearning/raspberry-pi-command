@@ -17,9 +17,10 @@ steps:
 - title: 'Challenge: customise your command'
 - title: Add to the menu
 - title: More colours
-- title: Add an icon for your command
   completion:
   - internal
 - title: 'Challenge: create a new command'
   challenge: true
+  completion:
+  - external
 - title: What can you do now?
