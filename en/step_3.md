@@ -7,6 +7,7 @@ You will use the Geany Programmer's Editor to write a script.
 A script is useful when you want to use longer sequences of commands.
 
 --- task ---
+
 Start the Geany editor from the command line. 
 
 ```bash
@@ -25,6 +26,7 @@ The ampersand `&` at the end of the line says that you want to be able to type m
 --- /task ---
 
 --- task ---
+
 Add these lines to your script:
 
 ```bash
@@ -33,6 +35,7 @@ echo "It's $(date +%A)"
 ```
 
 The first line is used to run the script using the Bash language. 
+
 --- /task ---
 
 --- task ---
@@ -62,9 +65,11 @@ ls -l welcome.sh
 You should see that the file has the permissions `-rw-r--r--`.
 
 --- /task ---
+
 There are three possible permissions: 'read', 'write', and 'execute'. These can be set for the 'user' (you), 'group', and 'other' (everyone).
 
 The user is able to read and write to this file, but not execute it. 
+
 --- task ---
 Add execute permission for the user.
 
@@ -78,14 +83,17 @@ This gives you, the `u`ser, permission to run (e`x`ecute) this file as a command
 --- /task ---
 
 --- task ---
+
 Repeat the `ls -l` command to see the properties of `welcome.sh`:
 
 ```bash
 ls -l welcome.sh
 ```
+
 --- /task ---
 
 --- task ---
+
 **Tip:** You can use the <kbd>Up</kbd> arrow on your keyboard to reuse existing commands (and edit them).
 
 Now, you should see that the user has e`x`ecute permission. 
@@ -95,7 +103,9 @@ Now, you should see that the user has e`x`ecute permission.
 ```
 
 --- /task ---
+
 You don't need to consider permissions for other users, as you will be the only one running this script in this project. 
+
 --- task ---
 Return to the Geany editor and press <kbd>F5</kbd> or the **Run** button again. 
 
@@ -104,7 +114,9 @@ This time, you should see a terminal window with the output of your program.
 ![Welcome output](images/command-output.png)
 
 --- /task ---
+
 It's easy to add more lines to your script. 
+
 --- task ---
 
 Add another line to the **beginning** of your script, after the line `#!/bin/bash`:
@@ -135,6 +147,7 @@ echo "Welcome to $HOSTNAME"
 --- /task ---
 
 --- task ---
+
 Press <kbd>F5</kbd> or click the **Run** (paper aeroplane) button to run your command.
 
 --- /task ---
