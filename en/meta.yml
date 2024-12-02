@@ -8,7 +8,7 @@ listed: true
 copyedit: true
 last_tested: '2019-05-08'
 steps:
-- title: Introduction
+- title: What you will make
 - title: What is a command?
 - title: Create your own command
   completion:
@@ -21,4 +21,5 @@ steps:
   completion:
   - internal
 - title: 'Challenge: create a new command'
-- title: What next?
+  challenge: true
+- title: What can you do now?

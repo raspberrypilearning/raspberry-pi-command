@@ -1,20 +1,20 @@
 ## What is a command?
 
-**Commands** are instructions that you can type in the terminal on Raspberry Pi. 
+ When you type commands into a terminal window on Raspberry Pi, you are typing Bash commands. 
+ 
+ You can put multiple commands into a file to create a Bash script that creates a new command that can be typed in a terminal window or run from the main menu on Raspberry Pi. 
 
 --- task ---
 Open a terminal window from the taskbar.
 
-![terminal icon](images/command-terminal.png)
+![terminal icon](images/pi-terminal.png)
 
 --- /task ---
 
 You will see a 'prompt'.
 
-There are lots of commands that you can type in the terminal. One of them is called `echo` and will type back the text that you enter. 
-
 --- task ---
-Type the following command in the terminal, then press <kbd>Enter</kbd>:
+Type this command, then press <kbd>Enter</kbd>:
 
 ```bash
 echo Hello World
@@ -23,15 +23,15 @@ echo Hello World
 
 You should see the text "Hello World" in your terminal window, followed by the prompt so you can enter another command:
 
-![Echo output](images/command-hello-world-output.png)
-
 --- task ---
-Now, use `echo` with text of your choice, instead of "Hello World". 
+Use `echo` with text of your choice, instead of "Hello World". 
 
 --- /task ---
 
+If you include a single quotation mark in your text, then you'll see a `>` prompt because the command thinks that you have not finished entering text.
+
 --- task ---
-If you include a single quotation mark in your text, then you'll see a `>` prompt because the command thinks that you have not finished entering text. Try it:
+Try it:
 
 ```bash
 echo It's Monday
@@ -39,9 +39,13 @@ echo It's Monday
 
 ![prompt](images/command-prompt.png)
 
+--- /task ---
+
 This isn't what you wanted.
 
-You can enter another single quotation mark, `'`, to complete the command. 
+--- task ---
+
+Enter another single quotation mark, `'`, to complete the command. 
 
 ![prompt](images/monday_apostophe.png)
 
@@ -51,8 +55,10 @@ Alternatively, you can hold down the <kbd>Control</kbd> button and then tap <kbd
 
 --- /task ---
 
+To enter text with an apostrophe, use double quotation marks (speech marks).
+
 --- task ---
-To enter text with an apostrophe, you can use double quotation marks (speech marks).
+Try it:
 
 ```bash
 echo "It's Monday"
@@ -60,24 +66,28 @@ echo "It's Monday"
 
 --- /task ---
 
+But what if it's not Monday? 
+
 --- task ---
-But what if it's not Monday? There is another command that you can use to work out the day of the week: `date`. Try it: 
+Use `date` to work out the day of the week.
 
 ```bash
 date
 ```
 --- /task ---
-
+You can just ask for the day of the week.
 --- task ---
-This gives the full date, but you can just ask for the day of the week. You can add `+` and then format options to just get part of the date. You can add `%A` to get the full weekday name in your local language.
+
+Add `+` and `%A` to get the full weekday name in your local language.
 
 ```bash
 date +%A
 ```
 --- /task ---
+The `echo` command can use another command if you include it in `$( )`. 
 
 --- task ---
-Now, combine what you have learnt. The `echo` command can use another command if you include it in `$( )`. 
+Combine what you have done before. 
 
 ```bash
 echo "It's $(date +%A)"
