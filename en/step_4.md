@@ -8,6 +8,7 @@ Open a terminal window and type the following command to output `Welcome` in gre
 ```bash
 echo -e "\e[32mWelcome"
 ```
+
 ![Welcome text in green](images/command-green-text.png)
 
 --- /task ---
