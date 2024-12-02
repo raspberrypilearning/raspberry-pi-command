@@ -3,6 +3,7 @@
 You can change the colour of the text and use underlining, italics, and other features. 
 
 --- task ---
+
 Open a terminal window and type the following command to output `Welcome` in green text:
 
 ```bash
@@ -42,8 +43,11 @@ echo -e "\e[33mHello \e[35mWorld"
 ```
 
 --- /task ---
+
 You can also use the number `1` for bold/bright text.
+
 --- task ---
+
 Type this command to try it:
 
 ```bash
@@ -73,7 +77,9 @@ echo -e "\e[1;33mHello \e[0;35mWorld"
 In the second command, the word "World" uses regular-weight font, whereas in the first command, the bold setting is still turned on.
 
 --- /task ---
+
 You can use `\e[0m` to reset the effects back to default.
+
 --- task ---
 
 Try it:
@@ -85,6 +91,7 @@ echo -e "Default \e[31mRed \e[0mDefault"
 --- /task ---
 
 --- task ---
+
 Go back to Geany and edit your script so that the output looks like this (but with your hostname and day of the week): 
 
 ![coloured welcome message](images/command-welcome-coloured.png)
