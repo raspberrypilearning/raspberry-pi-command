@@ -133,3 +133,8 @@ echo "Welcome to $HOSTNAME"
 ```
 
 --- /task ---
+
+--- task ---
+Press <kbd>F5</kbd> or click the **Run** (paper aeroplane) button to run your command.
+
+--- /task ---
