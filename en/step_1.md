@@ -13,14 +13,3 @@ You will write your own Bash script that can be run as a command from a terminal
 --- print-only ---
 ![Complete project](images/showcase_static.png)
 --- /print-only ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/raspberry-pi-command/print){:target="_blank"}.
-
-You can [find the resources created in this project here](https://rpf.io/p/en/raspberry-pi-command-get).
-
---- /collapse ---

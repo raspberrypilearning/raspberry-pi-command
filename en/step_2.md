@@ -1,8 +1,8 @@
 ## What is a command?
 
-When you type commands into a terminal window on Raspberry Pi, you are typing Bash commands. 
+When you type commands into a terminal window on Raspberry Pi, you are typing Bash commands. Bash is an application, which can run other applications (in the form of commands) that are installed on the same system.
  
-You can put multiple commands into a file to create a Bash script that creates a new command that can be typed in a terminal window or run from the main menu on Raspberry Pi. 
+You can combine multiple commands in a file to create a Bash **script**. This script acts as a new command, which you can run either by typing it in a terminal window or by selecting it from the Raspberry Pi's main menu, like an app.
 
 --- task ---
 
