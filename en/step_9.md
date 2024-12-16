@@ -1,24 +1,18 @@
-## Challenge: create a new command
+## What next?
 
-Can you create a new command that's useful to you?
+Well done! You have just completed the fifth project in the [Raspberry Pi for beginners](https://projects.raspberrypi.org/en/pathways/raspberry-pi-beginners){:target="_blank"} pathway.
 
-Command scripts are really useful for tasks that you do regularly where you have to remember the details such as command line arguments or multiple commands in order.
+Next, try the sixth (and final) project in the pathway, [Automate tasks on your Raspberry Pi](https://projects.raspberrypi.org/en/projects/rpi-automate-tasks/){:target="_blank"}. 
 
-You can create an icon image with an image editor that you are familiar with. 
+### The complete Raspberry Pi for beginners pathway
+ 
++ [Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/){:target="_blank"}
++ [Using your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/){:target="_blank"}
++ [Customise your Raspberry Pi desktop](https://projects.raspberrypi.org/en/projects/custom-pi-desktop/){:target="_blank"}
++ [Pac-Man treasure hunt on the terminal](https://projects.raspberrypi.org/en/projects/pacman-terminal){:target="_blank"}
++ [Create a new command on Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-command/){:target="_blank"}
++ [**Automate tasks on your Raspberry Pi**](https://projects.raspberrypi.org/en/projects/rpi-automate-tasks/){:target="_blank"}. 
 
-**Tip:** You can export costumes from the Paint editor in Scratch and use those. 
+### Other Raspberry Pi projects on the Raspberry Pi website
 
-If you can't think of anything, here are some ideas of scripts:
-
-- `hostname -I` — this will show the IP address of your Raspberry Pi, which is useful if you want to connect to it remotely
-- `cal` displays a calendar for the current month with today highlighted; use `man cal` on the command line to see options that you can use
-- `cat /proc/device-tree/model` displays information about your Raspberry Pi (the `cat` command displays the contents of a file); use formatting to display the result and create a command that you can run from a menu
-- Create a Stroop effect test where you write colours in different-coloured text and have to try to say the name of the colour that you see, rather than the word
-- Create a custom version of the `scrot` command that uses your favourite options, for example, taking a screenshot of a particular window and creating a thumbnail
-- Create simple pixel art by changing the background colour and printing space characters
-
-
-
-
-
-
+Take a look at some of our many other [Raspberry Pi projects](https://projects.raspberrypi.org/en/projects?hardware%5B%5D=raspberry-pi){:target="_blank"}.
