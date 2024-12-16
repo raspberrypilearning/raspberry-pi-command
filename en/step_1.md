@@ -5,7 +5,6 @@ In this project, you will create your own Bash command to display a colourful me
 --- no-print ---
 You will write your own Bash script that can be run as a command from a terminal window or from the main menu on Raspberry Pi.
 
-**TODO** Update gif 
 ![Complete project](images/command-showcase.gif)
 
 --- /no-print ---
