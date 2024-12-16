@@ -1,4 +1,4 @@
-## What next?
+## What can you do now?
 
 Well done! You have just completed the fifth project in the [Raspberry Pi for beginners](https://projects.raspberrypi.org/en/pathways/raspberry-pi-beginners){:target="_blank"} pathway.
 
