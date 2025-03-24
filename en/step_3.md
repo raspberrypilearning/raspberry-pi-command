@@ -71,6 +71,7 @@ There are three possible permissions: 'read', 'write', and 'execute'. These can 
 The user is able to read and write to this file, but not execute it. 
 
 --- task ---
+
 Add execute permission for the user.
 
 ```bash
@@ -107,6 +108,7 @@ Now, you should see that the user has e`x`ecute permission.
 You don't need to consider permissions for other users, as you will be the only one running this script in this project. 
 
 --- task ---
+
 Return to the Geany editor and press <kbd>F5</kbd> or the **Run** button again. 
 
 This time, you should see a terminal window with the output of your program. 
