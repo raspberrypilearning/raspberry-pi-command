@@ -39,10 +39,10 @@ If you include a single quotation mark in your text, then you'll see a `>` promp
 Try it:
 
 ```bash
-echo It's Monday
+echo ik zie je maandag, 's avonds
 ```
 
-![prompt](images/command-prompt.png)
+images/command-prompt.png![prompt](images/command-prompt.png)
 
 \--- /task ---
 
