@@ -12,6 +12,6 @@ You will write your own Bash script that can be run as a command from a terminal
 
 \--- print-only ---
 
-![Complete project](images/showcase_static.png)
+![Voltooid project](images/showcase_static.png)
 
 \--- /print-only ---
