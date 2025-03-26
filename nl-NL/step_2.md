@@ -16,7 +16,7 @@ Je ziet een 'prompt'.
 
 \--- task ---
 
-Typ het volgende commando en druk op <0>Enter</0>:
+Typ dit commando en druk op <kbd>Enter</kbd>:
 
 ```bash
 echo Hallo Wereld
@@ -39,7 +39,7 @@ Als je een enkel aanhalingsteken in je tekst opneemt, dan zie je een `>` prompt 
 Probeer het eens:
 
 ```bash
-echo ik zie je maandag, 's avonds
+echo Ik zie je maandag, 's avonds
 ```
 
 images/command-prompt.png![prompt](images/command-prompt.png)
@@ -52,31 +52,31 @@ Dit is niet wat je wilde.
 
 Voeg nog een enkel aanhalingsteken toe, `'`, om de opdracht te voltooien.
 
-images/monday_apostophe.png
+![prompt](images/monday_apostophe.png)
 
-Alternatively, you can hold down the <kbd>Control</kbd> button and then tap <kbd>C</kbd> (<kbd>Ctrl</kbd>-<kbd>C</kbd>) to cancel the command.
+Als alternatief, kun je de <kbd>Control</kbd> knop ingedrukt houden en vervolgens <kbd>C</kbd> (<kbd>Ctrl</kbd>-<kbd>C</kbd>) tikken om het commando te annuleren.
 
 ![prompt](images/monday_controlC.png)
 
 \--- /task ---
 
-To enter text with an apostrophe, use double quotation marks (speech marks).
+Om tekst met een apostrof in te voeren, gebruik je dubbele aanhalingstekens.
 
 \--- task ---
 
 Probeer het eens:
 
 ```bash
-echo "It's Monday"
+echo ik zie je maandag, 's avonds
 ```
 
 \--- /task ---
 
-But what if it's not Monday?
+Maar wat als het niet maandag is?
 
 \--- task ---
 
-Use `date` to work out the day of the week.
+Gebruik 'date' om de dag van de week te verkrijgen.
 
 ```bash
 date
@@ -84,11 +84,11 @@ date
 
 \--- /task ---
 
-You can just ask for the day of the week.
+Je kunt gewoon om de dag van de week vragen.
 
 \--- task ---
 
-Add `+` and `%A` to get the full weekday name in your local language.
+Voeg `+` and `%A` toe om de volledige naam te krijgen.
 
 ```bash
 date +%A
@@ -96,16 +96,16 @@ date +%A
 
 \--- /task ---
 
-The `echo` command can use another command if you include it in `$( )`.
+Het `echo` commando kan een ander commando gebruiken als je het in `$( )` opneemt.
 
 \--- task ---
 
-Combine what you have done before.
+Combineer wat je eerder hebt gedaan.
 
 ```bash
-echo "It's $(date +%A)"
+echo "Het is $(date +%A)"
 ```
 
 \--- /task ---
 
-**Tip:** If you want to discover more formatting codes for the `date` command, type `date --help`. You will need to scroll up to see them all.
+**Tip:** Als je meer formaat codes voor de opdracht `date` wilt ontdekken, typ dan `date --help`. Je moet omhoog scrollen om ze allemaal te zien.
