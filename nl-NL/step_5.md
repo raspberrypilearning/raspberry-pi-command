@@ -1,27 +1,27 @@
-## Challenge: customise your command
+## Uitdaging: pas je commando aan
 
-You have used `0` for coloured text and `1` for bold text.
+Je hebt `0` gebruikt voor gekleurde tekst en `1` voor vetgedrukte tekst.
 
-You can also use:
+Je kunt ook gebruiken:
 
-- `2` for dark/faint text
-- `3` for italic text
-- `4` for underlined text
-- `5` for blinking text
-- `7` for reverse video (swap background and foreground colours)
-- `9` for crossed-out text
+- `2` voor donkere/vage tekst
+- `3` voor cursieve tekst
+- `4` voor onderstreepte tekst
+- `5` voor knipperende tekst
+- `7` voor omgekeerde video (achtergrond- en voorgrondkleuren omwisselen)
+- `9` voor doorgestreepte tekst
 
-This command combines them to create bold underlined red text:
+Dit commando combineert ze om vetgedrukte, onderstreepte, rode tekst te maken:
 
 ```bash
-echo -e "\e[1;3;4;31mHello"
+echo -e "\e[1;3;4;31mHallo"
 ```
 
 \--- task ---
 
-Create your own colourful 'welcome' command.
+Maak je eigen kleurrijke 'welkom' commando.
 
-You could include an inspirational quote or use the `date` command to show the time.
+Je kunt een mooie, leuke quote toevoegen of de opdracht `date` gebruiken om de tijd weer te geven.
 
 \--- /task ---
 
