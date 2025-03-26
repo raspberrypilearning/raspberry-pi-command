@@ -1,12 +1,12 @@
 ### Wat je gaat maken
 
-In this project, you will create your own Bash command to display a colourful message.
+In dit project maak je je eigen Bash commando om een kleurrijk bericht te tonen.
 
 \--- no-print ---
 
-You will write your own Bash script that can be run as a command from a terminal window or from the main menu on Raspberry Pi.
+Je maakt hiervoor een eigen Bash script dat kan worden uitgevoerd als een commando vanuit een terminal venster of vanuit het hoofdmenu op Raspberry Pi.
 
-![Complete project](images/command-showcase.gif)
+![Voltooid project](images/command-showcase.gif)
 
 \--- /no-print ---
 
