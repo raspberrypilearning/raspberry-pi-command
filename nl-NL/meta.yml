@@ -1,26 +1,26 @@
 ---
-title: Create a new command on Raspberry Pi
+title: Maak een nieuw commando op de Raspberry Pi
 hero_image: images/banner.png
-description: Write a new Bash script that can be run as a command from a terminal window or the main menu
+description: Schrijf een nieuw Bash-script dat als opdracht kan worden uitgevoerd vanuit een terminalvenster of het hoofdmenu
 version: 4
 listed: true
 copyedit: true
 last_tested: '2019-05-08'
 steps:
-- title: What you will make
-- title: What is a command?
-- title: Create your own command
+- title: Wat je gaat maken
+- title: Wat is een commando?
+- title: Maak je eigen commando
   completion:
   - engaged
-- title: Add text effects
-- title: 'Challenge: customise your command'
+- title: Teksteffecten toevoegen
+- title: 'Uitdaging: pas je commando aan'
   challenge: true
-- title: Add to the menu
-- title: More colours
+- title: Toevoegen aan het menu
+- title: Meer kleuren
   completion:
   - internal
-- title: 'Challenge: create a new command'
+- title: 'Uitdaging: maak een nieuw commando'
   challenge: true
   completion:
   - external
-- title: What can you do now?
+- title: Wat kun je nu doen?
