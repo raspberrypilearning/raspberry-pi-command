@@ -1,42 +1,42 @@
-## What is a command?
+## Wat is een commando?
 
-When you type commands into a terminal window on Raspberry Pi, you are typing Bash commands. Bash is an application, which can run other applications (in the form of commands) that are installed on the same system.
+Wanneer je opdrachten typt in een terminalvenster op de Raspberry Pi, typ je Bash commando's. Bash is een applicatie die andere toepassingen (in de vorm van commando's) kan uitvoeren die zijn geïnstalleerd op hetzelfde systeem.
 
-You can combine multiple commands in a file to create a Bash **script**. This script acts as a new command, which you can run either by typing it in a terminal window or by selecting it from the Raspberry Pi's main menu, like an app.
+Je kunt meerdere commando's in een bestand combineren om zo een Bash **script** te maken. Dit script werkt als een nieuw commando, die je kunt uitvoeren door het in een terminalvenster te typen of door het te selecteren in het hoofdmenu van de Raspberry Pi, net zoals een app.
 
 \--- task ---
 
-Open a terminal window from the taskbar.
+Open een terminalvenster vanuit de taakbalk.
 
-![terminal icon](images/pi-terminal.png)
+![terminal_icon](images/pi-terminal.png)
 
 \--- /task ---
 
-You will see a 'prompt'.
+Je ziet een 'prompt'.
 
 \--- task ---
 
-Type this command, then press <kbd>Enter</kbd>:
+Typ het volgende commando en druk op <0>Enter</0>:
 
 ```bash
-echo Hello World
+echo Hallo Wereld
 ```
 
 \--- /task ---
 
-You should see the text "Hello World" in your terminal window, followed by the prompt so you can enter another command:
+Je zou de tekst "Hallo Wereld" moeten zien in je terminalvenster, gevolgd door de prompt zodat je een volgende commando kunt invoeren:
 
 \--- task ---
 
-Use `echo` with text of your choice, instead of "Hello World".
+Gebruik `echo` met de tekst van je keuze, in plaats van "Hallo Wereld".
 
 \--- /task ---
 
-If you include a single quotation mark in your text, then you'll see a `>` prompt because the command thinks that you have not finished entering text.
+Als je een enkel aanhalingsteken in je tekst opneemt, dan zie je een `>` prompt omdat het commando denkt dat je nog niet klaar bent met het invoeren van tekst.
 
 \--- task ---
 
-Try it:
+Probeer het eens:
 
 ```bash
 echo ik zie je maandag, 's avonds
@@ -46,13 +46,13 @@ images/command-prompt.png![prompt](images/command-prompt.png)
 
 \--- /task ---
 
-This isn't what you wanted.
+Dit is niet wat je wilde.
 
 \--- task ---
 
-Enter another single quotation mark, `'`, to complete the command.
+Voeg nog een enkel aanhalingsteken toe, `'`, om de opdracht te voltooien.
 
-![prompt](images/monday_apostophe.png)
+images/monday_apostophe.png
 
 Alternatively, you can hold down the <kbd>Control</kbd> button and then tap <kbd>C</kbd> (<kbd>Ctrl</kbd>-<kbd>C</kbd>) to cancel the command.
 
@@ -64,7 +64,7 @@ To enter text with an apostrophe, use double quotation marks (speech marks).
 
 \--- task ---
 
-Try it:
+Probeer het eens:
 
 ```bash
 echo "It's Monday"
