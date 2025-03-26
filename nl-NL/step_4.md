@@ -1,106 +1,106 @@
-## Add text effects
+## Teksteffecten toevoegen
 
-You can change the colour of the text and use underlining, italics, and other features.
-
-\--- task ---
-
-Open a terminal window and type the following command to output `Welcome` in green text:
-
-```bash
-echo -e "\e[32mWelcome"
-```
-
-![Welcome text in green](images/command-green-text.png)
-
-\--- /task ---
-
-The `-e` tells the `echo` command to look for escape sequences with a backslash before them.
-
-These are sequences of characters that have a special meaning; for example, `\n` means 'print a new line'.
-
-The `\e[ ... m` tells the `echo` command that the following characters should be treated as a special code.
-
-The `32` says that the text colour should be green.
-
-You can use numbers from `31` to `37` to get different colours.
+Je kunt de kleur van de tekst wijzigen en onderstreping, cursief en andere functies gebruiken.
 
 \--- task ---
 
-Change the `32` to a number between 31 and 37.
+Open een terminalvenster en typ het volgende commando om uit te voeren `Welkom` in groene tekst:
+
+```bash
+echo -e "\e[32mWelkom"
+```
+
+![Welkomtekst in groen](images/command-green-text.png)
 
 \--- /task ---
 
-**Tip:** Remember that you can use the <kbd>Up</kbd> arrow on the keyboard to get your previous command back, and use <kbd>Left</kbd> and <kbd>Right</kbd> and <kbd>Backspace</kbd> to edit the command. This means that you don't have to type the whole command lots of times to try different colours.
+De `-e` vertelt het `echo` commando om escape sequenties te tonen (met een backslash ervoor).
 
-The codes apply to all text after them. You can use another code to set a different colour.
+Dit zijn reeksen van tekens die een speciale betekenis hebben; bijvoorbeeld '\n' betekent 'print een nieuwe regel'.
+
+De `\e[ ... m` vertelt het `echo` commando dat de volgende tekens als een speciale code moeten worden behandeld.
+
+De `32` zegt dat de tekstkleur groen moet zijn.
+
+Je kunt getallen gebruiken van `31` tot `37` om verschillende kleuren te krijgen.
 
 \--- task ---
 
-Type this command to try it:
-
-```bash
-echo -e "\e[33mHello \e[35mWorld"
-```
+Verander de `32` naar een getal tussen 31 en 37.
 
 \--- /task ---
 
-You can also use the number `1` for bold/bright text.
+**Tip:** Vergeet niet dat je het pijltje <kbd>Omhoog</kbd> op het toetsenbord kunt gebruiken om je vorige commando terug te krijgen. en gebruik <kbd>Links</kbd> en <kbd>Rechts</kbd> en <kbd>Backspace</kbd> om het commando te bewerken. Dit betekent dat je niet de hele opdracht meerdere keren hoeft in te typen om verschillende kleuren te proberen.
+
+De codes zijn van toepassing op alle tekst erna. Je kunt een andere code gebruiken om een andere kleur in te stellen.
 
 \--- task ---
 
-Type this command to try it:
+Typ dit commando om het uit te proberen:
 
 ```bash
-echo -e "\e[1;33mHello \e[35mWorld"
+echo -e "\e[33mHallo \e[35mWereld"
 ```
-
-For some colours, the brighter version is a different colour; for example, orange becomes yellow.
 
 \--- /task ---
 
-If you want to use regular text after bold or another effect, then you can use the code `0`.
+Je kunt ook het nummer `1` gebruiken voor vetgedrukte/heldere tekst.
 
 \--- task ---
 
-Type these two commands and notice the output.
+Typ dit commando om het uit te proberen:
 
 ```bash
-echo -e "\e[1;33mHello \e[35mWorld"
+echo -e "\e[1;33mHallo \e[35mWereld"
 ```
 
-and
-
-```bash
-echo -e "\e[1;33mHello \e[0;35mWorld"
-```
-
-In the second command, the word "World" uses regular-weight font, whereas in the first command, the bold setting is still turned on.
+Voor sommige kleuren is de helderdere versie een andere kleur; oranje wordt bijvoorbeeld geel.
 
 \--- /task ---
 
-You can use `\e[0m` to reset the effects back to default.
+Als je weer gewone tekst wilt gebruiken na vet of een ander effect, dan kun je de code `0` gebruiken.
+
+\--- task ---
+
+Typ deze twee commando's en ontdek de uitvoer.
+
+```bash
+echo -e "\e[1;33mHallo \e[35mWereld"
+```
+
+en
+
+```bash
+echo -e "\e[1;33mHallo \e[0;35mWereld"
+```
+
+In het tweede commando wordt het woord 'Wereld' in een normaal lettertype weergegeven, terwijl in het eerste commando de instelling voor vetgedrukt nog is ingeschakeld.
+
+\--- /task ---
+
+Je kunt `\e[0m` gebruiken om de effecten terug te zetten naar de standaard (default).
 
 \--- task ---
 
 Probeer het eens:
 
 ```bash
-echo -e "Default \e[31mRed \e[0mDefault"
+echo -e "Default \e[31mRood \e[0mDefault"
 ```
 
 \--- /task ---
 
 \--- task ---
 
-Go back to Geany and edit your script so that the output looks like this (but with your hostname and day of the week):
+Ga terug naar Geany en bewerk je script zodat de uitvoer er zo uitziet (maar met jouw hostnaam en de huidige dag:
 
-![coloured welcome message](images/command-welcome-coloured.png)
+![gekleurde welkomstboodschap](images/command-welcome-coloured.png)
 
-The `echo` lines in your script should look like this:
+De `echo` regels in je script zouden er als volgt uit moeten zien:
 
 ```bash
-echo -e "\e[33mWelcome to \e[1;33m$HOSTNAME"
-echo -e "\e[0;35mIt's \e[1;35m$(date +%A)"
+echo -e "\e[33mWelkom bij \e[1;33m$HOSTNAME"
+echo -e "\e[0;35mHet is \e[1;35m$(date +%A)"
 ```
 
 \--- /task ---
