@@ -1,105 +1,105 @@
-## Create your own command
+## Maak je eigen commando
 
-You can write a script of commands by combining commands such as `echo` and `date` in a file.
+Je kunt een script met  commando's schrijven door opdrachten zoals `echo` en `date` in een bestand te combineren.
 
-You will use the Geany Programmer's Editor to write a script.
+Je gebruikt de Geany Programmer Editor om een script te schrijven.
 
-A script is useful when you want to use longer sequences of commands.
+Een script is handig wanneer je meer opdrachten na elkaar wilt gebruiken.
 
 \--- task ---
 
-Start the Geany editor from the command line.
+Start de Geany-editor vanaf de opdrachtregel.
 
 ```bash
-geany welcome.sh &
+geany welkom.sh &
 ```
 
-This creates a new file named `welcome`.
+Hiermee wordt een nieuw bestand met de naam `welkom.sh` aangemaakt.
 
-The extension `.sh` tells Geany that it is a shell script, so Geany can highlight the text in different colours, and knows how to run your script.
+De extensie `.sh` vertelt Geany dat het een shell-script is, zodat Geany de tekst in verschillende kleuren kan markeren en weet hoe het script moet worden uitgevoerd.
 
-The ampersand `&` at the end of the line says that you want to be able to type more commands while Geany is still running ("running in the background").
+Het ampersand `&` aan het einde van de regel geeft aan dat u meer opdrachten wilt kunnen typen terwijl Geany nog steeds actief is ('draait op de achtergrond').
 
 ![Geany window](images/Geany.png)
 
-**Note**: You can also open Geany from the main menu.
+**Let op**: Je kunt Geany ook openen via het hoofdmenu.
 
 \--- /task ---
 
 \--- task ---
 
-Add these lines to your script:
+Voeg deze regels toe aan je script:
 
 ```bash
 #!/bin/bash
-echo "It's $(date +%A)"
+echo "Het is $(date +%A)"
 ```
 
-The first line is used to run the script using the Bash language.
+De eerste regel wordt gebruikt om het script uit te voeren met behulp van de Bash taal
 
 \--- /task ---
 
 \--- task ---
 
-Press <kbd>F5</kbd> or click the **Run** (paper aeroplane) button to run your command. Your file will be saved automatically.
+Druk op <kbd>F5</kbd> of klik op de knop **Uitvoeren** (tandwiel icoon) om uw opdracht uit te voeren. Je bestand (welkom.sh) wordt automatisch opgeslagen.
 
-A terminal window will open. Your script will run and fail with the error `Permission denied`. This means that you don't have permission to run your script as a command.
+Een terminal venster zal openen. Je script wordt uitgevoerd maar mislukt met de fout `Permission denied`. Dit betekent dat je geen toestemming hebt om je script als commando uit te voeren.
 
-![Permission denied](images/command-denied.png)
+![Permissions denied]images/command-denied.png
 
-Press <kbd>Return</kbd> (<kbd>Enter</kbd>) to close this window.
+Druk op <0>Return</0> (<0>Enter</0>) om dit venster te sluiten.
 
 \--- /task ---
 
-You need to set your script to be executable so Raspberry Pi OS can run it as a command.
+Je moet je script uitvoerbaar maken, zodat het Raspberry Pi OS het als opdracht kan uitvoeren.
 
 \--- task ---
 
-Return to the terminal window in which you have been entering commands (or if you have closed it, open a new one from the taskbar icon).
+Ga terug naar het terminalvenster waarin u opdrachten hebt ingevoerd (of open, als u het gesloten hebt, een nieuw terminalvenster via het pictogram op de taakbalk).
 
-Type this command to see the properties of `welcome.sh`:
+Typ dit commando om de eigenschappen van `welkom.sh` te zien:
 
 ```bash
-ls -l welcome.sh
+ls -l welkom.sh
 ```
 
-You should see that the file has the permissions `-rw-r--r--`.
+Je zou moeten zien dat het bestand de rechten `-rw-r--r--` heeft.
 
 \--- /task ---
 
-There are three possible permissions: 'read', 'write', and 'execute'. These can be set for the 'user' (you), 'group', and 'other' (everyone).
+Er zijn drie mogelijke rechten: 'gelezen', 'write' en 'execute'. Deze kunnen worden ingesteld voor de 'gebruiker' (jij), de 'groep' en de 'anderen' (iedereen).
 
-The user is able to read and write to this file, but not execute it.
+De gebruiker kan dit bestand lezen en ernaar schrijven, maar het niet uitvoeren.
 
 \--- task ---
 
-Add execute permission for the user.
+Geef de gebruiker uitvoer rechten.
 
 ```bash
-chmod u+x welcome.sh
+chmod u+x welkom.sh
 ```
 
-This gives you, the `u`ser, permission to run (e`x`ecute) this file as a command.
+Dit geeft jou, de `u`ser, permissie om dit bestand als commando uit te voeren (e`x`ecute)
 
-`chmod` is short for 'change mode'.
+`chmod` is de afkorting van 'change mode'.
 
 \--- /task ---
 
 \--- task ---
 
-Repeat the `ls -l` command to see the properties of `welcome.sh`:
+Herhaal het `ls -l` commando om de eigenschappen van `welcome.sh` te zien:
 
 ```bash
-ls -l welcome.sh
+ls -l welkom.sh
 ```
 
 \--- /task ---
 
 \--- task ---
 
-**Tip:** You can use the <kbd>Up</kbd> arrow on your keyboard to reuse existing commands (and edit them).
+**Tip:** Je kunt het pijltje <kbd>Omhoog</kbd> op je toetsenbord gebruiken om eerder gegeven commando's ppnieuw te gebruiken (en ze te bewerken).
 
-Now, you should see that the user has e`x`ecute permission.
+Nu zou je moeten zien dat de gebruiker e`x`ecute toestemming heeft.
 
 ```bash
 -rwxr--r--
@@ -107,51 +107,51 @@ Now, you should see that the user has e`x`ecute permission.
 
 \--- /task ---
 
-You don't need to consider permissions for other users, as you will be the only one running this script in this project.
+Je hoeft niet na te denken over machtigingen voor andere gebruikers, omdat je de enige bent die dit script in dit project uitvoert.
 
 \--- task ---
 
-Return to the Geany editor and press <kbd>F5</kbd> or the **Run** button again.
+Ga terug naar de Geany-editor en druk op <kbd>F5</kbd> (of nogmaals op de knop **Uitvoeren**).
 
-This time, you should see a terminal window with the output of your program.
+Deze keer zou je een terminalvenster moeten zien met de uitvoer van je programma.
 
-![Welcome output](images/command-output.png)
+images/command-output.png
 
 \--- /task ---
 
-It's easy to add more lines to your script.
+Je kunt eenvoudig meer regels aan je script toevoegen.
 
 \--- task ---
 
-Add another line to the **beginning** of your script, after the line `#!/bin/bash`:
+Voeg nog een regel toe aan het **begin** van je script, na de regel `#!/bin/bash`:
 
 ```bash
-echo "Welcome to $HOSTNAME" 
+echo "Welkom bij $HOSTNAME" 
 ```
 
-A script can use environment variables such as `$HOSTNAME` to access information.
+Een script kan omgevingsvariabelen zoals `$HOSTNAME` gebruiken voor toegang tot informatie.
 
-`$HOSTNAME` contains the name of your Raspberry Pi computer on the network.
+`$HOSTNAME` bevat de naam van je Raspberry Pi-computer op het netwerk.
 
 \--- /task ---
 
-Another useful Bash command is `sleep`.
+Een andere nuttige Bash opdracht is `sleep`.
 
 \--- task ---
 
-Add a `sleep` command in between the `echo` commands in your script to create a one second delay.
+Voeg een `sleep`-opdracht toe tussen de `echo`-opdrachten in je script om een vertraging van één seconde te krijgen.
 
 ```bash
 #!/bin/bash
-echo "It's $(date +%A)"
+echo "Het is $(date +%A)"
 sleep 1
-echo "Welcome to $HOSTNAME"
+echo "Welkom bij $HOSTNAME"
 ```
 
 \--- /task ---
 
 \--- task ---
 
-Press <kbd>F5</kbd> or click the **Run** (paper aeroplane) button to run your command.
+Druk op <kbd>F5</kbd> of klik op de knop **Uitvoeren** (tandwiel icoon) om uw opdracht uit te voeren.
 
 \--- /task ---
