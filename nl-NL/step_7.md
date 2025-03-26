@@ -1,4 +1,4 @@
-## More colours
+## Meer kleuren
 
 Some terminals, including the default one available in Raspberry Pi OS, allow you to use even more colours.
 
