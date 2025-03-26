@@ -1,10 +1,10 @@
-## Add to the menu
+## Toevoegen aan het menu
 
-You can add your script to the menu so that you can launch it like other commonly used commands.
+Je kunt je script toevoegen aan het menu zodat je het kunt starten zoals andere vaak gebruikte programma's.
 
 \--- task ---
 
-Open the main menu and choose **Preferences** then **Main Menu Editor**.
+Open het hoofdmenu en kies **Voorkeuren** dan **Main Menu Editor**.
 
 \--- /task ---
 
