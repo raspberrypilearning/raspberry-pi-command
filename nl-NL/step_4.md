@@ -82,7 +82,7 @@ You can use `\e[0m` to reset the effects back to default.
 
 \--- task ---
 
-Try it:
+Probeer het eens:
 
 ```bash
 echo -e "Default \e[31mRed \e[0mDefault"
