@@ -1,4 +1,4 @@
-## Challenge: create a new command
+## Uitdaging: maak een nieuw commando
 
 Command scripts are really useful for tasks that you do regularly where you have to remember the details such as command line arguments or multiple commands in order.
 
