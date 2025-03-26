@@ -8,5 +8,5 @@ echo -en "\e[0mDit is een \e[38;5;197m"
 cat /proc/device-tree/model
 echo
 sleep 2
-echo -e "\e[0;32mHet is \e[5;7;32m $(datum +%A) \e[0m\e[38;5;226m"
+echo -e "\e[0;32mHet is \e[5;7;32m $(date +%A) \e[0m\e[38;5;226m"
 read -n 1
