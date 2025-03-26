@@ -1,4 +1,4 @@
-### What you will make
+### Wat je gaat maken
 
 In this project, you will create your own Bash command to display a colourful message.
 
