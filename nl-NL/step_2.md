@@ -1,14 +1,14 @@
 ## Wat is een commando?
 
-Wanneer je opdrachten typt in een terminalvenster op de Raspberry Pi, typ je Bash commando's. Bash is een applicatie die andere toepassingen (in de vorm van commando's) kan uitvoeren die zijn geïnstalleerd op hetzelfde systeem.
+Wanneer je opdrachten typt in een terminalvenster op de Raspberry Pi, typ je Bash-commando's. Bash is een applicatie die andere toepassingen (in de vorm van commando's) kan uitvoeren die zijn geïnstalleerd op hetzelfde systeem.
 
-Je kunt meerdere commando's in een bestand combineren om zo een Bash **script** te maken. Dit script werkt als een nieuw commando, die je kunt uitvoeren door het in een terminalvenster te typen of door het te selecteren in het hoofdmenu van de Raspberry Pi, net zoals een app.
+Je kunt meerdere commando's in een bestand combineren om zo een Bash-**script** te maken. Dit script werkt als een nieuw commando, die je kunt uitvoeren door het in een terminalvenster te typen of door het te selecteren in het hoofdmenu van de Raspberry Pi, net zoals een app.
 
 \--- task ---
 
 Open een terminalvenster vanuit de taakbalk.
 
-![terminal_icon](images/pi-terminal.png)
+![terminalpictogram](images/pi-terminal.png)
 
 \--- /task ---
 
@@ -24,7 +24,7 @@ echo Hallo Wereld
 
 \--- /task ---
 
-Je zou de tekst "Hallo Wereld" moeten zien in je terminalvenster, gevolgd door de prompt zodat je een volgende commando kunt invoeren:
+Je zou de tekst "Hallo Wereld" moeten zien in je terminalvenster, gevolgd door de prompt zodat je een volgend commando kunt invoeren:
 
 \--- task ---
 
@@ -42,7 +42,7 @@ Probeer het eens:
 echo Ik zie je maandag, 's avonds
 ```
 
-images/command-prompt.png![prompt](images/command-prompt.png)
+![prompt](images/command-prompt.png)
 
 \--- /task ---
 
@@ -67,7 +67,7 @@ Om tekst met een apostrof in te voeren, gebruik je dubbele aanhalingstekens.
 Probeer het eens:
 
 ```bash
-echo ik zie je maandag, 's avonds
+echo "Ik zie je maandag, 's avonds"
 ```
 
 \--- /task ---
@@ -76,7 +76,7 @@ Maar wat als het niet maandag is?
 
 \--- task ---
 
-Gebruik 'date' om de dag van de week te verkrijgen.
+Gebruik `date` om de dag van de week te verkrijgen.
 
 ```bash
 date
@@ -88,7 +88,7 @@ Je kunt gewoon om de dag van de week vragen.
 
 \--- task ---
 
-Voeg `+` and `%A` toe om de volledige naam te krijgen.
+Voeg `+` en `%A` toe om de volledige naam van de dag te krijgen.
 
 ```bash
 date +%A
@@ -108,4 +108,4 @@ echo "Het is $(date +%A)"
 
 \--- /task ---
 
-**Tip:** Als je meer formaat codes voor de opdracht `date` wilt ontdekken, typ dan `date --help`. Je moet omhoog scrollen om ze allemaal te zien.
+**Tip:** Als je meer opmaakcodes voor de opdracht `date` wilt ontdekken, typ dan `date --help`. Je moet omhoog scrollen om ze allemaal te zien.
