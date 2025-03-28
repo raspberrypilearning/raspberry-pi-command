@@ -2,7 +2,7 @@
 
 Je kunt een script met  commando's schrijven door opdrachten zoals `echo` en `date` in een bestand te combineren.
 
-Je gebruikt de Geany Programmer Editor om een script te schrijven.
+Je gebruikt de Geany Programmeurs Editor om een script te schrijven.
 
 Een script is handig wanneer je meer opdrachten na elkaar wilt gebruiken.
 
