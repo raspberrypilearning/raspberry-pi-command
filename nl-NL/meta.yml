@@ -7,7 +7,7 @@ listed: true
 copyedit: true
 last_tested: '2019-05-08'
 steps:
-- title: Wat je gaat maken
+- title: Wat ga je maken
 - title: Wat is een commando?
 - title: Maak je eigen commando
   completion:
@@ -23,4 +23,4 @@ steps:
   challenge: true
   completion:
   - external
-- title: Wat kun je nu doen?
+- title: Wat kun je verder nog doen?
