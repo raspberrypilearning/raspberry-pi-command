@@ -18,7 +18,7 @@ Hiermee wordt een nieuw bestand met de naam `welkom.sh` aangemaakt.
 
 De extensie `.sh` vertelt Geany dat het een shell-script is, zodat Geany de tekst in verschillende kleuren kan markeren en weet hoe het script moet worden uitgevoerd.
 
-Het ampersand `&` aan het einde van de regel geeft aan dat u meer opdrachten wilt kunnen typen terwijl Geany nog steeds actief is ('draait op de achtergrond').
+De ampersand `&` aan het einde van de regel geeft aan dat je meer opdrachten wilt kunnen typen terwijl Geany nog steeds actief is ("draait op de achtergrond").
 
 ![Geany window](images/Geany.png)
 
@@ -35,17 +35,17 @@ Voeg deze regels toe aan je script:
 echo "Het is $(date +%A)"
 ```
 
-De eerste regel wordt gebruikt om het script uit te voeren met behulp van de Bash taal
+De eerste regel wordt gebruikt om het script uit te voeren met behulp van de Bash-taal.
 
 \--- /task ---
 
 \--- task ---
 
-Druk op <kbd>F5</kbd> of klik op de knop **Uitvoeren** (tandwiel icoon) om uw opdracht uit te voeren. Je bestand (welkom.sh) wordt automatisch opgeslagen.
+Druk op <kbd>F5</kbd> of klik op de knop **Uitvoeren** (tandwielpictogram) om jouw opdracht uit te voeren. Je bestand (welkom.sh) wordt automatisch opgeslagen.
 
-Een terminal venster zal openen. Je script wordt uitgevoerd maar mislukt met de fout `Permission denied`. Dit betekent dat je geen toestemming hebt om je script als commando uit te voeren.
+Een terminalvenster wordt geopend. Je script wordt uitgevoerd maar mislukt met de fout `Permission denied` (toestemming geweigerd. Dit betekent dat je geen toestemming hebt om je script als commando uit te voeren.
 
-![Permissions denied]images/command-denied.png
+![Toestemming geweigerd](images/command-denied.png)
 
 Druk op <0>Return</0> (<0>Enter</0>) om dit venster te sluiten.
 
@@ -55,7 +55,7 @@ Je moet je script uitvoerbaar maken, zodat het Raspberry Pi OS het als opdracht 
 
 \--- task ---
 
-Ga terug naar het terminalvenster waarin u opdrachten hebt ingevoerd (of open, als u het gesloten hebt, een nieuw terminalvenster via het pictogram op de taakbalk).
+Ga terug naar het terminalvenster waarin je opdrachten hebt ingevoerd (of open, als je het gesloten hebt, een nieuw terminalvenster via het pictogram op de taakbalk).
 
 Typ dit commando om de eigenschappen van `welkom.sh` te zien:
 
@@ -67,13 +67,13 @@ Je zou moeten zien dat het bestand de rechten `-rw-r--r--` heeft.
 
 \--- /task ---
 
-Er zijn drie mogelijke rechten: 'gelezen', 'write' en 'execute'. Deze kunnen worden ingesteld voor de 'gebruiker' (jij), de 'groep' en de 'anderen' (iedereen).
+Er zijn drie mogelijke rechten: 'lezen', 'schrijven' en 'uitvoeren'. Deze kunnen worden ingesteld voor de 'gebruiker' (jij), de 'groep' en de 'anderen' (iedereen).
 
 De gebruiker kan dit bestand lezen en ernaar schrijven, maar het niet uitvoeren.
 
 \--- task ---
 
-Geef de gebruiker uitvoer rechten.
+Geef de gebruiker uitvoerrechten.
 
 ```bash
 chmod u+x welkom.sh
@@ -87,7 +87,7 @@ Dit geeft jou, de `u`ser, permissie om dit bestand als commando uit te voeren (e
 
 \--- task ---
 
-Herhaal het `ls -l` commando om de eigenschappen van `welcome.sh` te zien:
+Herhaal het `ls -l` commando om de eigenschappen van `welkom.sh` te zien:
 
 ```bash
 ls -l welkom.sh
@@ -97,7 +97,7 @@ ls -l welkom.sh
 
 \--- task ---
 
-**Tip:** Je kunt het pijltje <kbd>Omhoog</kbd> op je toetsenbord gebruiken om eerder gegeven commando's ppnieuw te gebruiken (en ze te bewerken).
+**Tip:** Je kunt het pijltje <kbd>Omhoog</kbd> op je toetsenbord gebruiken om eerder ingevoerde commando's opnieuw te gebruiken (en ze te bewerken).
 
 Nu zou je moeten zien dat de gebruiker e`x`ecute toestemming heeft.
 
@@ -115,7 +115,7 @@ Ga terug naar de Geany-editor en druk op <kbd>F5</kbd> (of nogmaals op de knop *
 
 Deze keer zou je een terminalvenster moeten zien met de uitvoer van je programma.
 
-images/command-output.png
+![Welkom uitvoer](images/command-output.png)
 
 \--- /task ---
 
@@ -135,7 +135,7 @@ Een script kan omgevingsvariabelen zoals `$HOSTNAME` gebruiken voor toegang tot 
 
 \--- /task ---
 
-Een andere nuttige Bash opdracht is `sleep`.
+Een andere nuttige Bash-opdracht is `sleep` (slaap).
 
 \--- task ---
 
@@ -152,6 +152,6 @@ echo "Welkom bij $HOSTNAME"
 
 \--- task ---
 
-Druk op <kbd>F5</kbd> of klik op de knop **Uitvoeren** (tandwiel icoon) om uw opdracht uit te voeren.
+Druk op <kbd>F5</kbd> of klik op de knop **Uitvoeren** (papieren vliegtuigje) om jouw opdracht uit te voeren.
 
 \--- /task ---
