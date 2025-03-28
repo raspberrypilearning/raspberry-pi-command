@@ -4,7 +4,7 @@ Je kunt de kleur van de tekst wijzigen en onderstreping, cursief en andere funct
 
 \--- task ---
 
-Open een terminalvenster en typ het volgende commando om uit te voeren `Welkom` in groene tekst:
+Open een terminalvenster en typ het volgende commando om `Welkom` uit te voeren in groene tekst:
 
 ```bash
 echo -e "\e[32mWelkom"
@@ -14,7 +14,7 @@ echo -e "\e[32mWelkom"
 
 \--- /task ---
 
-De `-e` vertelt het `echo` commando om escape sequenties te tonen (met een backslash ervoor).
+De `-e` vertelt het `echo` commando om escape sequenties (met een backslash ervoor) te tonen.
 
 Dit zijn reeksen van tekens die een speciale betekenis hebben; bijvoorbeeld '\n' betekent 'print een nieuwe regel'.
 
@@ -30,7 +30,7 @@ Verander de `32` naar een getal tussen 31 en 37.
 
 \--- /task ---
 
-**Tip:** Vergeet niet dat je het pijltje <kbd>Omhoog</kbd> op het toetsenbord kunt gebruiken om je vorige commando terug te krijgen. en gebruik <kbd>Links</kbd> en <kbd>Rechts</kbd> en <kbd>Backspace</kbd> om het commando te bewerken. Dit betekent dat je niet de hele opdracht meerdere keren hoeft in te typen om verschillende kleuren te proberen.
+**Tip:** Vergeet niet dat je het pijltje <kbd>Omhoog</kbd> op het toetsenbord kunt gebruiken om je vorige commando terug te krijgen. En gebruik <kbd>Links</kbd> en <kbd>Rechts</kbd> en <kbd>Backspace</kbd> om het commando te bewerken. Dit betekent dat je niet de hele opdracht meerdere keren hoeft in te typen om verschillende kleuren te proberen.
 
 De codes zijn van toepassing op alle tekst erna. Je kunt een andere code gebruiken om een andere kleur in te stellen.
 
@@ -44,7 +44,7 @@ echo -e "\e[33mHallo \e[35mWereld"
 
 \--- /task ---
 
-Je kunt ook het nummer `1` gebruiken voor vetgedrukte/heldere tekst.
+Je kunt ook het getal `1` gebruiken voor vetgedrukte/heldere tekst.
 
 \--- task ---
 
