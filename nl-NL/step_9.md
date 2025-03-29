@@ -1,17 +1,17 @@
 ## Wat kun je verder nog doen?
 
-Well done! You have just completed the fourth project in the [Raspberry Pi for beginners](https://projects.raspberrypi.org/en/pathways/raspberry-pi-beginners){:target="_blank"} pathway.
+Goed gedaan! Je hebt zojuist het vierde project in het [Raspberry Pi voor beginners](https://projects.raspberrypi.org/en/pathways/raspberry-pi-beginners){:target="_blank"} traject afgerond.
 
-Next, try the fifth (and final) project in the pathway, [Automate tasks on your Raspberry Pi](https://projects.raspberrypi.org/en/projects/rpi-automate-tasks/){:target="_blank"}.
+Probeer vervolgens het vijfde (en laatste) project in het pad: [Automatiseer taken op uw Raspberry Pi](https://projects.raspberrypi.org/en/projects/rpi-automate-tasks/){:target="_blank"}.
 
-### The complete Raspberry Pi for beginners pathway
+### Het complete Raspberry Pi voor beginners pad
 
-- [Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/){:target="_blank"}
-- [Using your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/){:target="_blank"}
-- [Pac-Man treasure hunt on the terminal](https://projects.raspberrypi.org/en/projects/pacman-terminal){:target="_blank"}
-- [Create a new command on Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-command/){:target="_blank"}
-- [**Automate tasks on your Raspberry Pi**](https://projects.raspberrypi.org/en/projects/rpi-automate-tasks/){:target="_blank"}.
+- [Je Raspberry Pi instellen](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/){:target="_blank"}
+- [Gebruik van je Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-using/){:target="_blank"}
+- [Pac-Man schattenjacht op de terminal](https://projects.raspberrypi.org/en/projects/pacman-terminal){:target="_blank"}
+- [Maak een nieuw commando op Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-command/){:target="_ blank"}
+- [**Automatiseer taken op je Raspberry Pi**](https://projects.raspberrypi.org/en/projects/rpi-automate-tasks/){:target="_blank"}.
 
-### Other Raspberry Pi projects on the Raspberry Pi website
+### Andere Raspberry Pi projecten op de Raspberry Pi website
 
-Take a look at some of our many other [Raspberry Pi projects](https://projects.raspberrypi.org/en/projects?hardware%5B%5D=raspberry-pi){:target="_blank"}.
+Kijk eens naar enkele van onze vele andere [Raspberry Pi projects](https://projects.raspberrypi.org/en/projects?hardware%5B%5D=raspberry-pi){:target="_blank"}.
