@@ -1,94 +1,94 @@
 ## Meer kleuren
 
-Some terminals, including the default one available in Raspberry Pi OS, allow you to use even more colours.
+Sommige terminals, waaronder de standaard die beschikbaar is in de Raspberry Pi OS, laten je nog meer kleuren gebruiken.
 
 \--- task ---
 
-You can choose from 256 different colours numbered from `0` (black) to `255` (white).
+Je kunt kiezen uit 256 verschillende kleuren genummerd van `0` (zwart) tot en met `255` (wit).
 
-Try the following command:
+Probeer het volgende commando:
 
 ```bash
-echo -e "\e[38;5;99mPurple"
+echo -e "\e[38;5;99mPaars"
 ```
 
-The `38;5` part of the code says that you want to use an extended colour for the foreground text. The number `99` corresponds to a shade of purple.
+Het `38;5` deel van de code zegt dat je een extra kleur wilt gebruiken voor de voorgrond tekst. Het getal `99` komt overeen met een tint paars.
 
 \--- /task ---
 
 \--- task ---
 
-Try some other numbers from `0` to `255`.
+Probeer wat andere getallen van `0` naar `255`.
 
 \--- /task ---
 
 \--- task ---
 
-Open a new Geany file called `bash-colours.sh`.
+Open een nieuw Geany bestand genaamd `bash-kleuren.sh`.
 
 ```bash
-geany bash-colours.sh &
+geany bash-kleuren.sh &
 ```
 
 \--- /task ---
 
 \--- task ---
 
-You can use a `for` loop to print out all the colours.
+Je kunt een `for` lus gebruiken om alle kleuren af te drukken.
 
-Add this to your `bash-colours.sh` script:
+Voeg dit toe aan je `bash-kleuren.sh` script:
 
 ```bash
 #!/bin/bash
 for i in {0..255} ; do echo -en "\e[38;5;${i}m ${i} \e[0m" ; done ; echo
 ```
 
-The loop runs the `echo` command once for each colour in the range `0` to `255`.
+De for-lus voert het `echo` commando uit voor elke kleur in het bereik `0` tot `255`.
 
-The `-n` option to `echo` says **not** to output a newline after each command.
+De optie `-n` bij `echo` geeft aan dat er na elke opdracht **geen** nieuwe regel moet worden weergegeven.
 
-The final `echo` outputs a newline so that the command prompt appears on the left.
-
-\--- /task ---
-
-\--- task ---
-
-Save your script.
+De laatste `echo` genereert een nieuwe regel, zodat de opdrachtprompt weer netjes aan de linkerkant verschijnt.
 
 \--- /task ---
 
 \--- task ---
 
-Make it executable.
+Sla je script op.
+
+\--- /task ---
+
+\--- task ---
+
+Maak het uitvoerbaar.
 
 ```bash
-chmod u+x bash-colours.sh
+chmod u+x bash-kleuren.sh
 ```
 
 \--- /task ---
 
 \--- task ---
 
-Test your script.
+Test je script.
 
-The output should look like this:
+De uitvoer zou er als volgt uit moeten zien:
 
-![Coloured numbers](images/command-256-foreground.png)
+![Gekleurde nummers](images/command-256-foreground.png)
 
 \--- /task ---
 
-You can use `48;5` instead of `38;5` to change the background colour instead of the foreground colour.
+Je kunt `48;5` gebruiken in plaats van `38;5` om de achtergrondkleur te veranderen in plaats van de voorgrondkleur.
 
 \--- task ---
 
-Change your script to show the full range of background colours.
+Wijzig je script om het volledige bereik van achtergrondkleuren te laten zien.
 
 ```bash
 for i in {0..255} ; do echo -en "\e[48;5;${i}m ${i} \e[0m" ; done ; echo
 ```
 
-The only change is that it uses `48` instead of `38`.
+De enige verandering is dat nu `48` gebruikt wordt in plaats van `38`.
 
-![Coloured numbers](images/command-256-background.png)
+![Gekleurde nummers](images/command-256-background.png)
 
 \--- /task ---
