@@ -10,56 +10,56 @@ Open het hoofdmenu en kies **Voorkeuren** dan **Main Menu Editor**.
 
 \--- task ---
 
-Click on **Other** then choose **New Item**.
+Klik op **Overig** en kies dan **Nieuw Item**.
 
-![Main Menu Editor](images/command-menu-editor.png)
-
-\--- /task ---
-
-\--- task ---
-
-Add `Welcome` in the **Name** box.
-
-Click on **Browse** and choose your `welcome.sh` script. It should show under **Recent**; if not, click on **Home** to find it.
-
-Add `Show a welcome message` in the **Comment** box.
-
-Click the **Launch in Terminal?** box.
-
-Click on **OK**.
+![Main Menu Editor](images/command-menu-editor.png)Menu
 
 \--- /task ---
 
 \--- task ---
 
-Open the main menu and choose **Other** and you should see your command.
+Voeg `Welkom` toe in het vak **Name**.
+
+Klik op **Browse** en kies je `welkom.sh` script. Het zou onder **Onlangs gebruikt** ("Recent") moeten staan. Als dat niet zo is, klik dan op **Persoonlijke map** ("Home") om het te vinden.
+
+Voeg `Toon een welkomstbericht` toe in het **Comment**-vak.
+
+Klik op het vakje **Launch in Terminal?**.
+
+Klik tenslotte op **OK**.
+
+\--- /task ---
+
+\--- task ---
+
+Open nu het hoofdmenu en kies **Overig**. Je zou nu je opdracht moeten zien.
 
 ![Main Menu Editor](images/command-welcome-menu.png)
 
-Run the **Welcome** command.
+Voer de opdracht **Welkom** uit.
 
 \--- /task ---
 
-You will see a terminal window pop up and disappear quickly.
+Er verschijnt een terminalvenster dat heel snel weer verdwijnt. Wellicht zie  je het terminalvenster niet eens..
 
-Your command runs, but then the window closes, so you don't get to see the output.
+Je opdracht wordt uitgevoerd, maar dan sluit het venster direct af, zodat je de uitvoer niet krijgt te zien.
 
 \--- task ---
 
-To fix the problem, add a line to the **end** of your `welcome.sh` script so that it waits for a key press before exiting:
+Om het probleem op te lossen, voeg je een regel toe aan het **einde** van je `welkom.sh`-script, zodat het script wacht op een toetsaanslag voordat het wordt afgesloten:
 
 ```bash
 read -n 1
 ```
 
-`read` is another Bash command, and it will read a number of characters as input.
+`read` is een Bash-opdracht, die de tekens van je invoer leest. Met "-n 1" gaat je programma door na 1 toetsaanslag.
 
 \--- /task ---
 
 \--- task ---
 
-Try your script again, and you should see the output in a terminal window.
+Probeer het script opnieuw en je zou nu de uitvoer moeten zien in een terminalvenster.
 
-You can tap <kbd>Space</kbd>, <kbd>Enter</kbd>, or any other key to close the window.
+Je kunt op <0>Space</0>tikken, <0>Enter</0>, of een andere toets om het venster te sluiten.
 
 \--- /task ---
