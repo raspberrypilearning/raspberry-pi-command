@@ -1,17 +1,17 @@
 ## Uitdaging: maak een nieuw commando
 
-Command scripts are really useful for tasks that you do regularly where you have to remember the details such as command line arguments or multiple commands in order.
+Commando scripts zijn erg handig voor taken die je regelmatig uitvoert en waarbij je details moet onthouden, zoals commando argumenten of meerdere commando's in de juiste volgorde.
 
 \--- task ---
 
-Create a new command that's useful to you.
+Maak een nieuw commando dat handig voor je is.
 
 \--- /task ---
 
-If you can't think of anything, here are some ideas of scripts:
+Als je niks kunt bedenken, hier zijn enkele ideeën van scripts:
 
-- `hostname -I` — this will show the IP address of your Raspberry Pi, which is useful if you want to connect to it remotely
-- `cat /proc/device-tree/model` displays information about your Raspberry Pi (the `cat` command displays the contents of a file); use formatting to display the result and create a command that you can run from a menu
-- Create a Stroop effect test where you write colours in different-coloured text and have to try to say the name of the colour that you see, rather than the word
-- Create a custom version of the `scrot` command that uses your favourite options, for example, taking a screenshot of a particular window and creating a thumbnail
-- Create simple pixel art by changing the background colour and printing space characters
+- `hostnaam -I` - dit toont het IP-adres van de Raspberry Pi, wat handig is als je er op afstand verbinding mee wilt maken
+- `cat /proc/device-tree/model` toont informatie over je Raspberry Pi (het `cat` commando geeft de inhoud van een bestand weer); probeer het resultaat netjes weer te geven en zorg dat je je opdracht kan uitvoeren vanuit een menu
+- Maak tekst met verschillende kleuren waarbij je de naam van de kleur die je ziet, weergeeft
+- Maak een aangepaste versie van het `scrot` commando dat je favoriete opties gebruikt, bijvoorbeeld het maken van een screenshot van een bepaald venster en het maken van een miniatuur ("thumbnail")
+- Maak eenvoudige pixelkunst door de achtergrondkleur te wijzigen en spaties te printen
