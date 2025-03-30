@@ -1,6 +1,6 @@
 ## Meer kleuren
 
-Sommige terminals, waaronder de standaard die beschikbaar is in de Raspberry Pi OS, laten je nog meer kleuren gebruiken.
+Sommige terminals, waaronder de standaard die beschikbaar is in Raspberry Pi OS, laten je nog meer kleuren gebruiken.
 
 \--- task ---
 
@@ -73,7 +73,7 @@ Test je script.
 
 De uitvoer zou er als volgt uit moeten zien:
 
-![Gekleurde nummers](images/command-256-foreground.png)
+![Gekleurde getallen](images/command-256-foreground.png)
 
 \--- /task ---
 
@@ -89,6 +89,6 @@ for i in {0..255} ; do echo -en "\e[48;5;${i}m ${i} \e[0m" ; done ; echo
 
 De enige verandering is dat nu `48` gebruikt wordt in plaats van `38`.
 
-![Gekleurde nummers](images/command-256-background.png)
+![Gekleurde getallen](images/command-256-background.png)
 
 \--- /task ---
