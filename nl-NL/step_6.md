@@ -12,7 +12,7 @@ Open het hoofdmenu en kies **Voorkeuren** dan **Main Menu Editor**.
 
 Klik op **Overig** en kies dan **Nieuw Item**.
 
-![Main Menu Editor](images/command-menu-editor.png)Menu
+![Main Menu Editor](images/command-menu-editor.png)
 
 \--- /task ---
 
@@ -40,7 +40,7 @@ Voer de opdracht **Welkom** uit.
 
 \--- /task ---
 
-Er verschijnt een terminalvenster dat heel snel weer verdwijnt. Wellicht zie  je het terminalvenster niet eens..
+Er verschijnt een terminalvenster dat heel snel weer verdwijnt. Wellicht zie je het terminalvenster niet eens.
 
 Je opdracht wordt uitgevoerd, maar dan sluit het venster direct af, zodat je de uitvoer niet krijgt te zien.
 
