@@ -60,6 +60,6 @@ read -n 1
 
 Probeer het script opnieuw en je zou nu de uitvoer moeten zien in een terminalvenster.
 
-Je kunt op <kbd>Space</kbd>tikken, <kbd>Enter</kbd>, of een andere toets om het venster te sluiten.
+Je kunt op <kbd>Space</kbd> tikken, <kbd>Enter</kbd>, of een andere toets om het venster te sluiten.
 
 --- /task ---
