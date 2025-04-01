@@ -41,7 +41,7 @@ De eerste regel wordt gebruikt om het script uit te voeren met behulp van de Bas
 
 \--- task ---
 
-Druk op <kbd>F5</kbd> of klik op de knop **Uitvoeren** (tandwielpictogram) om jouw opdracht uit te voeren. Je bestand (welkom.sh) wordt automatisch opgeslagen.
+Druk op <kbd>F5</kbd> of klik op de knop **Uitvoeren** (papieren vliegtuigje) om jouw opdracht uit te voeren. Je bestand (welkom.sh) wordt automatisch opgeslagen.
 
 Een terminalvenster wordt geopend. Je script wordt uitgevoerd maar mislukt met de fout `Permission denied` (toestemming geweigerd. Dit betekent dat je geen toestemming hebt om je script als commando uit te voeren.
 
